@@ -1,0 +1,266 @@
+INFO:     Started server process [909068]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50784 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46738 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     100.95.107.116:50244 - "GET /play HTTP/1.1" 200 OK
+INFO:     100.95.107.116:50244 - "GET /static/track_visualizer.js?v=2 HTTP/1.1" 200 OK
+INFO:     100.95.107.116:50244 - "GET /games HTTP/1.1" 200 OK
+INFO:     100.95.107.116:50244 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     100.95.107.116:50244 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     100.95.107.116:50244 - "GET /game/5ebaeb60 HTTP/1.1" 200 OK
+INFO:     100.95.107.116:50246 - "WebSocket /ws/5ebaeb60" [accepted]
+INFO:     connection open
+WebSocket message received in game 5ebaeb60: {'type': 'register', 'player_id': 0}
+Registering player 0
+Bot [BOT] Easy 2 auto-selected gear 1
+INFO:     100.95.107.116:50244 - "POST /add-bot/5ebaeb60 HTTP/1.1" 200 OK
+WebSocket message received in game 5ebaeb60: {'type': 'start_race'}
+Start race requested by player 0
+Starting race procedure...
+Bot [BOT] Easy 2 selected gear 4
+INFO:     100.95.107.116:50381 - "GET /play HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     100.95.107.116:50381 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     100.95.107.116:50382 - "GET /games HTTP/1.1" 200 OK
+INFO:     100.95.107.116:50384 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     100.95.107.116:50384 - "GET /game/206e23b3 HTTP/1.1" 200 OK
+INFO:     100.95.107.116:50385 - "WebSocket /ws/206e23b3" [accepted]
+INFO:     connection open
+WebSocket message received in game 206e23b3: {'type': 'register', 'player_id': 0}
+Registering player 0
+Bot [BOT] Easy 2 auto-selected gear 1
+INFO:     100.95.107.116:50384 - "POST /add-bot/206e23b3 HTTP/1.1" 200 OK
+Bot [BOT] Easy 3 auto-selected gear 1
+INFO:     100.95.107.116:50384 - "POST /add-bot/206e23b3 HTTP/1.1" 200 OK
+Bot [BOT] Easy 4 auto-selected gear 1
+INFO:     100.95.107.116:50384 - "POST /add-bot/206e23b3 HTTP/1.1" 200 OK
+INFO:     connection closed
+WebSocket message received in game 206e23b3: {'type': 'start_race'}
+Start race requested by player 0
+Starting race procedure...
+Bot [BOT] Easy 2 selected gear 3
+Bot [BOT] Easy 3 selected gear 2
+Bot [BOT] Easy 4 selected gear 3
+WebSocket message received in game 206e23b3: {'type': 'gear_selection', 'player_id': 0, 'gear': 1}
+Gear selection: player 0 chose gear 1, 4/4 players ready
+All players ready, processing turn
+WebSocket message received in game 206e23b3: {'type': 'gear_selection', 'player_id': 0, 'gear': 2}
+Gear selection: player 0 chose gear 2, 1/4 players ready
+INFO:     100.95.107.116:56254 - "GET /play HTTP/1.1" 200 OK
+INFO:     100.95.107.116:56254 - "GET /static/track_visualizer.js?v=2 HTTP/1.1" 200 OK
+INFO:     100.95.107.116:56254 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     100.95.107.116:56255 - "GET /games HTTP/1.1" 200 OK
+INFO:     100.95.107.116:56259 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     100.95.107.116:56259 - "GET /game/8e17de5f HTTP/1.1" 200 OK
+INFO:     100.95.107.116:56261 - "WebSocket /ws/8e17de5f" [accepted]
+INFO:     connection open
+WebSocket message received in game 8e17de5f: {'type': 'register', 'player_id': 0}
+Registering player 0
+Bot [BOT] Easy 2 auto-selected gear 1
+INFO:     100.95.107.116:56259 - "POST /add-bot/8e17de5f HTTP/1.1" 200 OK
+Bot [BOT] Easy 3 auto-selected gear 1
+INFO:     100.95.107.116:56259 - "POST /add-bot/8e17de5f HTTP/1.1" 200 OK
+WebSocket message received in game 8e17de5f: {'type': 'start_race'}
+Start race requested by player 0
+Starting race procedure...
+Bot [BOT] Easy 2 selected gear 4
+Bot [BOT] Easy 3 selected gear 4
+WebSocket message received in game 8e17de5f: {'type': 'gear_selection', 'player_id': 0, 'gear': 1}
+Gear selection: player 0 chose gear 1, 3/3 players ready
+All players ready, processing turn
+WebSocket message received in game 8e17de5f: {'type': 'gear_selection', 'player_id': 0, 'gear': 2}
+Gear selection: player 0 chose gear 2, 1/3 players ready
+INFO:     100.95.107.116:57773 - "GET /play HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     100.95.107.116:57773 - "GET /static/track_visualizer.js?v=2 HTTP/1.1" 200 OK
+INFO:     100.95.107.116:57773 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     100.95.107.116:57774 - "GET /games HTTP/1.1" 200 OK
+INFO:     100.95.107.116:57773 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     100.95.107.116:57773 - "GET /game/76d3e84a HTTP/1.1" 200 OK
+INFO:     100.95.107.116:57778 - "WebSocket /ws/76d3e84a" [accepted]
+INFO:     connection open
+WebSocket message received in game 76d3e84a: {'type': 'register', 'player_id': 0}
+Registering player 0
+Bot [BOT] Easy 2 auto-selected gear 1
+INFO:     100.95.107.116:57773 - "POST /add-bot/76d3e84a HTTP/1.1" 200 OK
+WebSocket message received in game 76d3e84a: {'type': 'start_race'}
+Start race requested by player 0
+Starting race procedure...
+Bot [BOT] Easy 2 selected gear 2
+WebSocket message received in game 76d3e84a: {'type': 'gear_selection', 'player_id': 0, 'gear': 1}
+Gear selection: player 0 chose gear 1, 2/2 players ready
+All players ready, processing turn
+WebSocket message received in game 76d3e84a: {'type': 'gear_selection', 'player_id': 0, 'gear': 2}
+Gear selection: player 0 chose gear 2, 1/2 players ready
+INFO:     100.95.107.116:54452 - "GET /play HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     100.95.107.116:54453 - "GET /static/track_visualizer.js?v=2 HTTP/1.1" 200 OK
+INFO:     100.95.107.116:54453 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     100.95.107.116:54452 - "GET /games HTTP/1.1" 200 OK
+INFO:     100.95.107.116:54458 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     100.95.107.116:54458 - "GET /game/21c11c16 HTTP/1.1" 200 OK
+INFO:     100.95.107.116:54459 - "WebSocket /ws/21c11c16" [accepted]
+INFO:     connection open
+WebSocket message received in game 21c11c16: {'type': 'register', 'player_id': 0}
+Registering player 0
+Bot [BOT] Easy 2 auto-selected gear 1
+INFO:     100.95.107.116:54458 - "POST /add-bot/21c11c16 HTTP/1.1" 200 OK
+WebSocket message received in game 21c11c16: {'type': 'start_race'}
+Start race requested by player 0
+Starting race procedure...
+Bot [BOT] Easy 2 selected gear 4
+WebSocket message received in game 21c11c16: {'type': 'gear_selection', 'player_id': 0, 'gear': 1}
+Gear selection: player 0 chose gear 1, 2/2 players ready
+All players ready, processing turn
+WebSocket message received in game 21c11c16: {'type': 'gear_selection', 'player_id': 0, 'gear': 2}
+Gear selection: player 0 chose gear 2, 1/2 players ready
+INFO:     100.95.107.116:54908 - "GET /play HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     100.95.107.116:54909 - "GET /static/track_visualizer.js?v=2 HTTP/1.1" 304 Not Modified
+INFO:     100.95.107.116:54909 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     100.95.107.116:54908 - "GET /games HTTP/1.1" 200 OK
+INFO:     100.95.107.116:54909 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     100.95.107.116:54909 - "GET /game/ae9f3f2e HTTP/1.1" 200 OK
+INFO:     100.95.107.116:54912 - "WebSocket /ws/ae9f3f2e" [accepted]
+INFO:     connection open
+WebSocket message received in game ae9f3f2e: {'type': 'register', 'player_id': 0}
+Registering player 0
+Bot [BOT] Easy 2 auto-selected gear 1
+INFO:     100.95.107.116:54909 - "POST /add-bot/ae9f3f2e HTTP/1.1" 200 OK
+INFO:     connection closed
+WebSocket message received in game ae9f3f2e: {'type': 'start_race'}
+Start race requested by player 0
+Starting race procedure...
+Bot [BOT] Easy 2 selected gear 4
+WebSocket message received in game ae9f3f2e: {'type': 'gear_selection', 'player_id': 0, 'gear': 1}
+Gear selection: player 0 chose gear 1, 2/2 players ready
+All players ready, processing turn
+WebSocket message received in game ae9f3f2e: {'type': 'gear_selection', 'player_id': 0, 'gear': 2}
+Gear selection: player 0 chose gear 2, 1/2 players ready
+INFO:     127.0.0.1:57976 - "GET /static/index.html HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39878 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39880 - "POST /create-game HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:39886 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36588 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36600 - "POST /create-game HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:36602 - "POST /create-game HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:36616 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32912 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32928 - "POST /create-game HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:32936 - "POST /create-game HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:32938 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32940 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32946 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32950 - "POST /game/f8fcb834/start HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32956 - "POST /create-game HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:32960 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32970 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32972 - "WebSocket /ws/test-game" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:48856 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48864 - "POST /create-game HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:48880 - "POST /create-game HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:48886 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48888 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48898 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48902 - "POST /game/061d04b0/start HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48910 - "POST /create-game HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:48914 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48926 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48938 - "WebSocket /ws/test-game" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:46978 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46986 - "POST /create-game HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:46994 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47006 - "GET /game/020802fe HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47020 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47034 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47048 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47054 - "POST /game/32dff0e4/start HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47070 - "POST /create-game HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:47080 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47082 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47096 - "WebSocket /ws/test-game" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:59032 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59040 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59054 - "GET /game/a3c1dd66 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59070 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59084 - "GET /game/ffc912d1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59088 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59100 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59112 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59126 - "POST /game/480c3eda/start HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59140 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59146 - "WebSocket /ws/ce1cca7f" [accepted]
+INFO:     connection open
+INFO:     connection closed
+WebSocket message received in game ce1cca7f: {'type': 'register', 'player_id': 0}
+Registering player 0
+WebSocket message received in game ce1cca7f: {'type': 'start_race'}
+Start race requested by player 0
+Starting race procedure...
+INFO:     127.0.0.1:59156 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59172 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59184 - "WebSocket /ws/test-game" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:35312 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35316 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35320 - "GET /game/8c9cf51c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35324 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35334 - "GET /game/81f41565 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35338 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35350 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35356 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35362 - "POST /game/a015da6c/start HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35372 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35378 - "WebSocket /ws/4a3ea8f6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+WebSocket message received in game 4a3ea8f6: {'type': 'register', 'player_id': 0}
+Registering player 0
+WebSocket message received in game 4a3ea8f6: {'type': 'start_race'}
+Start race requested by player 0
+Starting race procedure...
+INFO:     127.0.0.1:35384 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35400 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35414 - "WebSocket /ws/test-game" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:39138 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39150 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39160 - "GET /game/c89f5bcf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39170 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39180 - "GET /game/32575194 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39184 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39200 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39214 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39220 - "POST /game/c6ad481c/start HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39226 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39236 - "WebSocket /ws/69478143" [accepted]
+INFO:     connection open
+INFO:     connection closed
+WebSocket message received in game 69478143: {'type': 'register', 'player_id': 0}
+Registering player 0
+WebSocket message received in game 69478143: {'type': 'start_race'}
+Start race requested by player 0
+Starting race procedure...
+INFO:     127.0.0.1:39252 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39266 - "GET /track-coordinates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39268 - "WebSocket /ws/test-game" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:37868 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38366 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34192 - "POST /join-game/512f6e41 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34196 - "GET /game/512f6e41 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54240 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60438 - "POST /join-game/5419b14c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55422 - "GET /game/512f6e41 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58520 - "GET /games HTTP/1.1" 200 OK

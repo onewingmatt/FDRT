@@ -1,0 +1,4767 @@
+{
+  "name": "Circuit de Monaco",
+  "lap_length": 288,
+  "start_positions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "corners": [
+    {
+      "name": "sainte_devote",
+      "color": "blue",
+      "stops_required": 1,
+      "spaces": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "name": "masgenet",
+      "color": "yellow",
+      "stops_required": 1,
+      "spaces": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ]
+    },
+    {
+      "name": "hairpin",
+      "color": "red",
+      "stops_required": 2,
+      "spaces": [
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161
+      ]
+    },
+    {
+      "name": "portier",
+      "color": "green",
+      "stops_required": 1,
+      "spaces": [
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ]
+    },
+    {
+      "name": "pool",
+      "color": "orange",
+      "stops_required": 1,
+      "spaces": [
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242
+      ]
+    },
+    {
+      "name": "rascasse",
+      "color": "purple",
+      "stops_required": 1,
+      "spaces": [
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257
+      ]
+    },
+    {
+      "name": "noghes",
+      "color": "cyan",
+      "stops_required": 1,
+      "spaces": [
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275
+      ]
+    }
+  ],
+  "spaces": [
+    {
+      "id": 0,
+      "x": 120.0,
+      "y": 562.0,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "x": 120.0,
+      "y": 580.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        4,
+        0,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "x": 120.0,
+      "y": 598.0,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        5,
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "x": 175.0,
+      "y": 562.0,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        6,
+        4
+      ]
+    },
+    {
+      "id": 4,
+      "x": 175.0,
+      "y": 580.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        7,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 5,
+      "x": 175.0,
+      "y": 598.0,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        8,
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "x": 230.0,
+      "y": 562.0,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        9,
+        7
+      ]
+    },
+    {
+      "id": 7,
+      "x": 230.0,
+      "y": 580.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        10,
+        6,
+        8
+      ]
+    },
+    {
+      "id": 8,
+      "x": 230.0,
+      "y": 598.0,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        11,
+        7
+      ]
+    },
+    {
+      "id": 9,
+      "x": 283.2437143674353,
+      "y": 562.0858865478403,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        12,
+        10
+      ]
+    },
+    {
+      "id": 10,
+      "x": 285.0,
+      "y": 580.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        13,
+        9,
+        11
+      ]
+    },
+    {
+      "id": 11,
+      "x": 286.7562856325647,
+      "y": 597.9141134521597,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        14,
+        10
+      ]
+    },
+    {
+      "id": 12,
+      "x": 328.33565334606214,
+      "y": 558.7132633603821,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        15,
+        13
+      ]
+    },
+    {
+      "id": 13,
+      "x": 336.0,
+      "y": 575.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        16,
+        12,
+        14
+      ]
+    },
+    {
+      "id": 14,
+      "x": 343.66434665393786,
+      "y": 591.2867366396179,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        17,
+        13
+      ]
+    },
+    {
+      "id": 15,
+      "x": 354.3716234417597,
+      "y": 550.069499109577,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        18,
+        16
+      ]
+    },
+    {
+      "id": 16,
+      "x": 370.0,
+      "y": 559.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        19,
+        15,
+        17
+      ]
+    },
+    {
+      "id": 17,
+      "x": 385.6283765582403,
+      "y": 567.930500890423,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        20,
+        16
+      ]
+    },
+    {
+      "id": 18,
+      "x": 368.39178574815605,
+      "y": 527.2649242496088,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        21,
+        19
+      ]
+    },
+    {
+      "id": 19,
+      "x": 386.0,
+      "y": 531.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        22,
+        18,
+        20
+      ]
+    },
+    {
+      "id": 20,
+      "x": 403.60821425184395,
+      "y": 534.7350757503912,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        23,
+        19
+      ]
+    },
+    {
+      "id": 21,
+      "x": 375.07392228358134,
+      "y": 499.62964342876535,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        24,
+        22
+      ]
+    },
+    {
+      "id": 22,
+      "x": 393.0,
+      "y": 498.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        25,
+        21,
+        23
+      ]
+    },
+    {
+      "id": 23,
+      "x": 410.92607771641866,
+      "y": 496.37035657123465,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        26,
+        22
+      ]
+    },
+    {
+      "id": 24,
+      "x": 372.77356072019745,
+      "y": 470.2201331150917,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        27,
+        25
+      ]
+    },
+    {
+      "id": 25,
+      "x": 390.0,
+      "y": 465.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        28,
+        24,
+        26
+      ]
+    },
+    {
+      "id": 26,
+      "x": 407.22643927980255,
+      "y": 459.7798668849083,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        29,
+        25
+      ]
+    },
+    {
+      "id": 27,
+      "x": 365.2237063678612,
+      "y": 442.27916078757477,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        30,
+        28
+      ]
+    },
+    {
+      "id": 28,
+      "x": 380.0,
+      "y": 432.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        31,
+        27,
+        29
+      ]
+    },
+    {
+      "id": 29,
+      "x": 394.7762936321388,
+      "y": 421.72083921242523,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Start/Finish",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        32,
+        28
+      ]
+    },
+    {
+      "id": 30,
+      "x": 357.6360389693211,
+      "y": 415.3639610306789,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        32,
+        31
+      ]
+    },
+    {
+      "id": 31,
+      "x": 370.3639610306789,
+      "y": 402.6360389693211,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        33,
+        30
+      ]
+    },
+    {
+      "id": 32,
+      "x": 357.6360389693211,
+      "y": 415.3639610306789,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        34,
+        33
+      ]
+    },
+    {
+      "id": 33,
+      "x": 352.56318113907054,
+      "y": 385.24259206358005,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        35,
+        32
+      ]
+    },
+    {
+      "id": 34,
+      "x": 343.43681886092946,
+      "y": 400.75740793641995,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        36,
+        35
+      ]
+    },
+    {
+      "id": 35,
+      "x": 352.56318113907054,
+      "y": 385.24259206358005,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        37,
+        34
+      ]
+    },
+    {
+      "id": 36,
+      "x": 328.3155250617765,
+      "y": 391.59031980231526,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        38,
+        37
+      ]
+    },
+    {
+      "id": 37,
+      "x": 333.6844749382235,
+      "y": 374.40968019768474,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        39,
+        36
+      ]
+    },
+    {
+      "id": 38,
+      "x": 328.3155250617765,
+      "y": 391.59031980231526,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        40,
+        39
+      ]
+    },
+    {
+      "id": 39,
+      "x": 317.99538105961625,
+      "y": 369.513086997754,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        41,
+        38
+      ]
+    },
+    {
+      "id": 40,
+      "x": 312.00461894038375,
+      "y": 386.486913002246,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        42,
+        41
+      ]
+    },
+    {
+      "id": 41,
+      "x": 317.99538105961625,
+      "y": 369.513086997754,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        43,
+        40
+      ]
+    },
+    {
+      "id": 42,
+      "x": 295.3155250617765,
+      "y": 380.59031980231526,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        44,
+        43
+      ]
+    },
+    {
+      "id": 43,
+      "x": 300.6844749382235,
+      "y": 363.40968019768474,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        45,
+        42
+      ]
+    },
+    {
+      "id": 44,
+      "x": 295.3155250617765,
+      "y": 380.59031980231526,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        46,
+        45
+      ]
+    },
+    {
+      "id": 45,
+      "x": 284.99538105961625,
+      "y": 358.513086997754,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        47,
+        44
+      ]
+    },
+    {
+      "id": 46,
+      "x": 279.00461894038375,
+      "y": 375.486913002246,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        48,
+        47
+      ]
+    },
+    {
+      "id": 47,
+      "x": 284.99538105961625,
+      "y": 358.513086997754,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Sainte Devote",
+      "space_type": "corner",
+      "corner_zone": "sainte_devote",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        49,
+        46
+      ]
+    },
+    {
+      "id": 48,
+      "x": 259.63105012355294,
+      "y": 378.1806396046305,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        51,
+        49
+      ]
+    },
+    {
+      "id": 49,
+      "x": 265.0,
+      "y": 361.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        52,
+        48,
+        50
+      ]
+    },
+    {
+      "id": 50,
+      "x": 270.36894987644706,
+      "y": 343.8193603953695,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        53,
+        49
+      ]
+    },
+    {
+      "id": 51,
+      "x": 239.87363772185893,
+      "y": 371.51481587283985,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        54,
+        52
+      ]
+    },
+    {
+      "id": 52,
+      "x": 249.0,
+      "y": 356.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        55,
+        51,
+        53
+      ]
+    },
+    {
+      "id": 53,
+      "x": 258.1263622781411,
+      "y": 340.48518412716015,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        56,
+        52
+      ]
+    },
+    {
+      "id": 54,
+      "x": 219.68905968013607,
+      "y": 359.1316696745215,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        57,
+        55
+      ]
+    },
+    {
+      "id": 55,
+      "x": 232.0,
+      "y": 346.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        58,
+        54,
+        56
+      ]
+    },
+    {
+      "id": 56,
+      "x": 244.31094031986393,
+      "y": 332.8683303254785,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        59,
+        55
+      ]
+    },
+    {
+      "id": 57,
+      "x": 201.756869974941,
+      "y": 342.00605501936377,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        60,
+        58
+      ]
+    },
+    {
+      "id": 58,
+      "x": 216.0,
+      "y": 331.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        61,
+        57,
+        59
+      ]
+    },
+    {
+      "id": 59,
+      "x": 230.243130025059,
+      "y": 319.99394498063623,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        62,
+        58
+      ]
+    },
+    {
+      "id": 60,
+      "x": 183.37162344175974,
+      "y": 317.930500890423,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        63,
+        61
+      ]
+    },
+    {
+      "id": 61,
+      "x": 199.0,
+      "y": 309.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        64,
+        60,
+        62
+      ]
+    },
+    {
+      "id": 62,
+      "x": 214.62837655824026,
+      "y": 300.069499109577,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        65,
+        61
+      ]
+    },
+    {
+      "id": 63,
+      "x": 167.7678088783845,
+      "y": 290.5906388543505,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        66,
+        64
+      ]
+    },
+    {
+      "id": 64,
+      "x": 183.0,
+      "y": 281.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        67,
+        63,
+        65
+      ]
+    },
+    {
+      "id": 65,
+      "x": 198.2321911216155,
+      "y": 271.4093611456495,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        68,
+        64
+      ]
+    },
+    {
+      "id": 66,
+      "x": 150.37162344175974,
+      "y": 262.930500890423,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        69,
+        67
+      ]
+    },
+    {
+      "id": 67,
+      "x": 166.0,
+      "y": 254.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        70,
+        66,
+        68
+      ]
+    },
+    {
+      "id": 68,
+      "x": 181.62837655824026,
+      "y": 245.06949910957698,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        71,
+        67
+      ]
+    },
+    {
+      "id": 69,
+      "x": 134.2651690298123,
+      "y": 234.74157276121537,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        72,
+        70
+      ]
+    },
+    {
+      "id": 70,
+      "x": 150.0,
+      "y": 226.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        73,
+        69,
+        71
+      ]
+    },
+    {
+      "id": 71,
+      "x": 165.7348309701877,
+      "y": 217.25842723878463,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Beau Rivage",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        74,
+        70
+      ]
+    },
+    {
+      "id": 72,
+      "x": 117.69256894246519,
+      "y": 203.9449803021528,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        75,
+        73
+      ]
+    },
+    {
+      "id": 73,
+      "x": 135.0,
+      "y": 199.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        76,
+        72,
+        74
+      ]
+    },
+    {
+      "id": 74,
+      "x": 152.3074310575348,
+      "y": 194.0550196978472,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        77,
+        73
+      ]
+    },
+    {
+      "id": 75,
+      "x": 109.04918041977923,
+      "y": 172.3296903392756,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        78,
+        76
+      ]
+    },
+    {
+      "id": 76,
+      "x": 127.0,
+      "y": 171.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        79,
+        75,
+        77
+      ]
+    },
+    {
+      "id": 77,
+      "x": 144.95081958022075,
+      "y": 169.6703096607244,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        80,
+        76
+      ]
+    },
+    {
+      "id": 78,
+      "x": 107.10243522944344,
+      "y": 142.0824037745832,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        81,
+        79
+      ]
+    },
+    {
+      "id": 79,
+      "x": 125.0,
+      "y": 144.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        82,
+        78,
+        80
+      ]
+    },
+    {
+      "id": 80,
+      "x": 142.89756477055656,
+      "y": 145.9175962254168,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        83,
+        79
+      ]
+    },
+    {
+      "id": 81,
+      "x": 111.49273898744177,
+      "y": 108.8229299945399,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        84,
+        82
+      ]
+    },
+    {
+      "id": 82,
+      "x": 128.0,
+      "y": 116.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        85,
+        81,
+        83
+      ]
+    },
+    {
+      "id": 83,
+      "x": 144.50726101255822,
+      "y": 123.1770700054601,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        86,
+        82
+      ]
+    },
+    {
+      "id": 84,
+      "x": 126.34232843828028,
+      "y": 79.28509228032974,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        87,
+        85
+      ]
+    },
+    {
+      "id": 85,
+      "x": 138.0,
+      "y": 93.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        88,
+        84,
+        86
+      ]
+    },
+    {
+      "id": 86,
+      "x": 149.65767156171972,
+      "y": 106.71490771967026,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        89,
+        85
+      ]
+    },
+    {
+      "id": 87,
+      "x": 149.3806616477497,
+      "y": 60.19787968754108,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        90,
+        88
+      ]
+    },
+    {
+      "id": 88,
+      "x": 158.0,
+      "y": 76.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        91,
+        87,
+        89
+      ]
+    },
+    {
+      "id": 89,
+      "x": 166.6193383522503,
+      "y": 91.80212031245892,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        92,
+        88
+      ]
+    },
+    {
+      "id": 90,
+      "x": 176.01082013539857,
+      "y": 46.44760859575372,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        93,
+        91
+      ]
+    },
+    {
+      "id": 91,
+      "x": 180.0,
+      "y": 64.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        94,
+        90,
+        92
+      ]
+    },
+    {
+      "id": 92,
+      "x": 183.98917986460143,
+      "y": 81.55239140424628,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        95,
+        91
+      ]
+    },
+    {
+      "id": 93,
+      "x": 201.1826621034643,
+      "y": 41.01856627621461,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        96,
+        94
+      ]
+    },
+    {
+      "id": 94,
+      "x": 202.0,
+      "y": 59.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        97,
+        93,
+        95
+      ]
+    },
+    {
+      "id": 95,
+      "x": 202.8173378965357,
+      "y": 76.98143372378539,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Massenet",
+      "space_type": "corner",
+      "corner_zone": "masgenet",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        98,
+        94
+      ]
+    },
+    {
+      "id": 96,
+      "x": 224.0,
+      "y": 31.0,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        100,
+        97
+      ]
+    },
+    {
+      "id": 97,
+      "x": 224.0,
+      "y": 49.0,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        101,
+        96,
+        98
+      ]
+    },
+    {
+      "id": 98,
+      "x": 224.0,
+      "y": 67.0,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        102,
+        97,
+        99
+      ]
+    },
+    {
+      "id": 99,
+      "x": 241.17009316860046,
+      "y": 84.5644875726975,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        103,
+        98
+      ]
+    },
+    {
+      "id": 100,
+      "x": 250.82990683139954,
+      "y": 31.4355124273025,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        104,
+        101
+      ]
+    },
+    {
+      "id": 101,
+      "x": 271.07568756778034,
+      "y": 53.541859188604064,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        105,
+        100,
+        102
+      ]
+    },
+    {
+      "id": 102,
+      "x": 264.92431243221966,
+      "y": 70.45814081139594,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        106,
+        101,
+        103
+      ]
+    },
+    {
+      "id": 103,
+      "x": 258.772937296659,
+      "y": 87.3744224341878,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        107,
+        102
+      ]
+    },
+    {
+      "id": 104,
+      "x": 307.77962441245,
+      "y": 49.6804292429143,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        108,
+        105
+      ]
+    },
+    {
+      "id": 105,
+      "x": 295.9265414708167,
+      "y": 63.2268097476381,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        109,
+        104,
+        106
+      ]
+    },
+    {
+      "id": 106,
+      "x": 284.0734585291833,
+      "y": 76.7731902523619,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        110,
+        105,
+        107
+      ]
+    },
+    {
+      "id": 107,
+      "x": 280.51582437811754,
+      "y": 92.91946146765886,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        111,
+        106
+      ]
+    },
+    {
+      "id": 108,
+      "x": 331.48417562188246,
+      "y": 75.08053853234114,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        112,
+        109
+      ]
+    },
+    {
+      "id": 109,
+      "x": 314.49472520729415,
+      "y": 81.02684617744704,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        113,
+        108,
+        110
+      ]
+    },
+    {
+      "id": 110,
+      "x": 304.1451708091008,
+      "y": 105.60996894379984,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        114,
+        109,
+        111
+      ]
+    },
+    {
+      "id": 111,
+      "x": 286.4355124273025,
+      "y": 108.82990683139954,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        115,
+        110
+      ]
+    },
+    {
+      "id": 112,
+      "x": 339.5644875726975,
+      "y": 99.17009316860046,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        116,
+        113
+      ]
+    },
+    {
+      "id": 113,
+      "x": 325.96303885820936,
+      "y": 125.18517828561733,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        117,
+        112,
+        114
+      ]
+    },
+    {
+      "id": 114,
+      "x": 308.03696114179064,
+      "y": 126.81482171438267,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        118,
+        113,
+        115
+      ]
+    },
+    {
+      "id": 115,
+      "x": 290.110883425372,
+      "y": 128.444465143148,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        119,
+        114
+      ]
+    },
+    {
+      "id": 116,
+      "x": 345.889116574628,
+      "y": 150.444465143148,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        120,
+        117
+      ]
+    },
+    {
+      "id": 117,
+      "x": 327.96303885820936,
+      "y": 148.81482171438267,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        121,
+        116,
+        118
+      ]
+    },
+    {
+      "id": 118,
+      "x": 310.03696114179064,
+      "y": 147.18517828561733,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        122,
+        117,
+        119
+      ]
+    },
+    {
+      "id": 119,
+      "x": 290.24758546280395,
+      "y": 166.35194347220053,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        123,
+        118
+      ]
+    },
+    {
+      "id": 120,
+      "x": 343.75241453719605,
+      "y": 173.64805652779947,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        124,
+        121
+      ]
+    },
+    {
+      "id": 121,
+      "x": 325.91747151239866,
+      "y": 171.21601884259982,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        125,
+        120,
+        122
+      ]
+    },
+    {
+      "id": 122,
+      "x": 305.3171256088604,
+      "y": 189.63194334787102,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        126,
+        121,
+        123
+      ]
+    },
+    {
+      "id": 123,
+      "x": 287.9513768265812,
+      "y": 184.89583004361307,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        127,
+        122
+      ]
+    },
+    {
+      "id": 124,
+      "x": 340.0486231734188,
+      "y": 199.10416995638693,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        128,
+        125
+      ]
+    },
+    {
+      "id": 125,
+      "x": 316.5381496824546,
+      "y": 216.84604989415155,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        129,
+        124,
+        126
+      ]
+    },
+    {
+      "id": 126,
+      "x": 299.4618503175454,
+      "y": 211.15395010584845,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        130,
+        125,
+        127
+      ]
+    },
+    {
+      "id": 127,
+      "x": 282.38555095263615,
+      "y": 205.46185031754538,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        131,
+        126
+      ]
+    },
+    {
+      "id": 128,
+      "x": 320.78542427391005,
+      "y": 253.3721796829165,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        132,
+        129
+      ]
+    },
+    {
+      "id": 129,
+      "x": 307.5951414246367,
+      "y": 241.1240598943055,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        133,
+        128,
+        130
+      ]
+    },
+    {
+      "id": 130,
+      "x": 294.4048585753633,
+      "y": 228.8759401056945,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        134,
+        129,
+        131
+      ]
+    },
+    {
+      "id": 131,
+      "x": 276.5034800190933,
+      "y": 224.56989504057316,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Casino",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        135,
+        130
+      ]
+    },
+    {
+      "id": 132,
+      "x": 291.8321733269689,
+      "y": 257.1433683198089,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        134,
+        133
+      ]
+    },
+    {
+      "id": 133,
+      "x": 284.1678266730311,
+      "y": 240.85663168019104,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        135,
+        132
+      ]
+    },
+    {
+      "id": 134,
+      "x": 274.16011097429555,
+      "y": 265.4269625981214,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        136,
+        135
+      ]
+    },
+    {
+      "id": 135,
+      "x": 267.83988902570445,
+      "y": 248.5730374018786,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        137,
+        134
+      ]
+    },
+    {
+      "id": 136,
+      "x": 274.16011097429555,
+      "y": 265.4269625981214,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        138,
+        137
+      ]
+    },
+    {
+      "id": 137,
+      "x": 252.46050308407604,
+      "y": 254.36571048585856,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        139,
+        136
+      ]
+    },
+    {
+      "id": 138,
+      "x": 257.53949691592396,
+      "y": 271.6342895141414,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        140,
+        139
+      ]
+    },
+    {
+      "id": 139,
+      "x": 252.46050308407604,
+      "y": 254.36571048585856,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        141,
+        138
+      ]
+    },
+    {
+      "id": 140,
+      "x": 242.76999046002862,
+      "y": 275.6319847360458,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        142,
+        141
+      ]
+    },
+    {
+      "id": 141,
+      "x": 233.23000953997138,
+      "y": 260.3680152639542,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        143,
+        140
+      ]
+    },
+    {
+      "id": 142,
+      "x": 242.76999046002862,
+      "y": 275.6319847360458,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        144,
+        143
+      ]
+    },
+    {
+      "id": 143,
+      "x": 215.83171770895507,
+      "y": 271.4462000657648,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        145,
+        142
+      ]
+    },
+    {
+      "id": 144,
+      "x": 228.16828229104493,
+      "y": 284.5537999342352,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        146,
+        145
+      ]
+    },
+    {
+      "id": 145,
+      "x": 215.83171770895507,
+      "y": 271.4462000657648,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        147,
+        144
+      ]
+    },
+    {
+      "id": 146,
+      "x": 211.55379993423523,
+      "y": 300.16828229104493,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        148,
+        147
+      ]
+    },
+    {
+      "id": 147,
+      "x": 198.44620006576477,
+      "y": 287.83171770895507,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        149,
+        146
+      ]
+    },
+    {
+      "id": 148,
+      "x": 211.55379993423523,
+      "y": 300.16828229104493,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        150,
+        149
+      ]
+    },
+    {
+      "id": 149,
+      "x": 181.87843498747048,
+      "y": 305.4969724903181,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        151,
+        148
+      ]
+    },
+    {
+      "id": 150,
+      "x": 196.12156501252952,
+      "y": 316.5030275096819,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        152,
+        151
+      ]
+    },
+    {
+      "id": 151,
+      "x": 181.87843498747048,
+      "y": 305.4969724903181,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        153,
+        150
+      ]
+    },
+    {
+      "id": 152,
+      "x": 179.2786247587287,
+      "y": 338.29354527907543,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        154,
+        153
+      ]
+    },
+    {
+      "id": 153,
+      "x": 164.7213752412713,
+      "y": 327.70645472092457,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        155,
+        152
+      ]
+    },
+    {
+      "id": 154,
+      "x": 179.2786247587287,
+      "y": 338.29354527907543,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        156,
+        155
+      ]
+    },
+    {
+      "id": 155,
+      "x": 148.87843498747048,
+      "y": 349.4969724903181,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        157,
+        154
+      ]
+    },
+    {
+      "id": 156,
+      "x": 163.12156501252952,
+      "y": 360.5030275096819,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        158,
+        157
+      ]
+    },
+    {
+      "id": 157,
+      "x": 148.87843498747048,
+      "y": 349.4969724903181,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        159,
+        156
+      ]
+    },
+    {
+      "id": 158,
+      "x": 146.2786247587287,
+      "y": 382.29354527907543,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        160,
+        159
+      ]
+    },
+    {
+      "id": 159,
+      "x": 131.7213752412713,
+      "y": 371.70645472092457,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        161,
+        158
+      ]
+    },
+    {
+      "id": 160,
+      "x": 146.2786247587287,
+      "y": 382.29354527907543,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        162,
+        161
+      ]
+    },
+    {
+      "id": 161,
+      "x": 115.8784349874705,
+      "y": 393.4969724903181,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Grand Hotel Hairpin",
+      "space_type": "corner",
+      "corner_zone": "hairpin",
+      "corner_stops_required": 2,
+      "connected_spaces": [
+        163,
+        160
+      ]
+    },
+    {
+      "id": 162,
+      "x": 137.243130025059,
+      "y": 410.00605501936377,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        165,
+        163
+      ]
+    },
+    {
+      "id": 163,
+      "x": 123.0,
+      "y": 399.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        166,
+        162,
+        164
+      ]
+    },
+    {
+      "id": 164,
+      "x": 91.4427504825426,
+      "y": 410.4129094418492,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        167,
+        163
+      ]
+    },
+    {
+      "id": 165,
+      "x": 120.5572495174574,
+      "y": 431.5870905581508,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        168,
+        166
+      ]
+    },
+    {
+      "id": 166,
+      "x": 106.0,
+      "y": 421.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        169,
+        165,
+        167
+      ]
+    },
+    {
+      "id": 167,
+      "x": 75.756869974941,
+      "y": 431.99394498063623,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        170,
+        166
+      ]
+    },
+    {
+      "id": 168,
+      "x": 104.243130025059,
+      "y": 454.00605501936377,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        171,
+        169
+      ]
+    },
+    {
+      "id": 169,
+      "x": 90.0,
+      "y": 443.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        172,
+        168,
+        170
+      ]
+    },
+    {
+      "id": 170,
+      "x": 58.44275048254261,
+      "y": 454.4129094418492,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        173,
+        169
+      ]
+    },
+    {
+      "id": 171,
+      "x": 87.5572495174574,
+      "y": 475.5870905581508,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        174,
+        172
+      ]
+    },
+    {
+      "id": 172,
+      "x": 73.0,
+      "y": 465.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        175,
+        171,
+        173
+      ]
+    },
+    {
+      "id": 173,
+      "x": 42.75686997494099,
+      "y": 475.99394498063623,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        176,
+        172
+      ]
+    },
+    {
+      "id": 174,
+      "x": 71.243130025059,
+      "y": 498.00605501936377,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        177,
+        175
+      ]
+    },
+    {
+      "id": 175,
+      "x": 57.0,
+      "y": 487.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        178,
+        174,
+        176
+      ]
+    },
+    {
+      "id": 176,
+      "x": 23.900310562001515,
+      "y": 500.9501552810008,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        179,
+        175
+      ]
+    },
+    {
+      "id": 177,
+      "x": 56.099689437998485,
+      "y": 517.0498447189992,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        180,
+        178
+      ]
+    },
+    {
+      "id": 178,
+      "x": 40.0,
+      "y": 509.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        181,
+        177,
+        179
+      ]
+    },
+    {
+      "id": 179,
+      "x": 11.290341618201666,
+      "y": 527.7800621124003,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        182,
+        178
+      ]
+    },
+    {
+      "id": 180,
+      "x": 46.709658381798334,
+      "y": 534.2199378875997,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        183,
+        181
+      ]
+    },
+    {
+      "id": 181,
+      "x": 29.0,
+      "y": 531.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        184,
+        180,
+        182
+      ]
+    },
+    {
+      "id": 182,
+      "x": 7.018566276214607,
+      "y": 553.8173378965357,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        185,
+        181
+      ]
+    },
+    {
+      "id": 183,
+      "x": 42.98143372378539,
+      "y": 552.1826621034643,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        186,
+        184
+      ]
+    },
+    {
+      "id": 184,
+      "x": 25.0,
+      "y": 553.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        187,
+        183,
+        185
+      ]
+    },
+    {
+      "id": 185,
+      "x": 8.847335959761285,
+      "y": 580.4576658309851,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        188,
+        184
+      ]
+    },
+    {
+      "id": 186,
+      "x": 43.15266404023872,
+      "y": 569.5423341690149,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        189,
+        187
+      ]
+    },
+    {
+      "id": 187,
+      "x": 26.0,
+      "y": 575.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        190,
+        186,
+        188
+      ]
+    },
+    {
+      "id": 188,
+      "x": 17.503322492142317,
+      "y": 606.1571276182796,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        191,
+        187
+      ]
+    },
+    {
+      "id": 189,
+      "x": 48.49667750785768,
+      "y": 587.8428723817204,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        192,
+        190
+      ]
+    },
+    {
+      "id": 190,
+      "x": 33.0,
+      "y": 597.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        193,
+        189,
+        191
+      ]
+    },
+    {
+      "id": 191,
+      "x": 33.60250968553552,
+      "y": 632.0499898046994,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        194,
+        190
+      ]
+    },
+    {
+      "id": 192,
+      "x": 58.39749031446448,
+      "y": 605.9500101953006,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        195,
+        193
+      ]
+    },
+    {
+      "id": 193,
+      "x": 46.0,
+      "y": 619.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        196,
+        192,
+        194
+      ]
+    },
+    {
+      "id": 194,
+      "x": 56.84287238172046,
+      "y": 653.4966775078577,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        197,
+        193
+      ]
+    },
+    {
+      "id": 195,
+      "x": 75.15712761827953,
+      "y": 622.5033224921423,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        198,
+        196
+      ]
+    },
+    {
+      "id": 196,
+      "x": 66.0,
+      "y": 638.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        199,
+        195,
+        197
+      ]
+    },
+    {
+      "id": 197,
+      "x": 82.54233416901495,
+      "y": 668.1526640402387,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        200,
+        196
+      ]
+    },
+    {
+      "id": 198,
+      "x": 93.45766583098505,
+      "y": 633.8473359597613,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        201,
+        199
+      ]
+    },
+    {
+      "id": 199,
+      "x": 110.0,
+      "y": 658.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        202,
+        198,
+        200
+      ]
+    },
+    {
+      "id": 200,
+      "x": 112.43203768519965,
+      "y": 675.8349430247973,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        203,
+        199
+      ]
+    },
+    {
+      "id": 201,
+      "x": 107.56796231480035,
+      "y": 640.1650569752027,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        204,
+        202
+      ]
+    },
+    {
+      "id": 202,
+      "x": 132.0,
+      "y": 655.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        205,
+        201,
+        203
+      ]
+    },
+    {
+      "id": 203,
+      "x": 139.4484529974213,
+      "y": 671.3865965943269,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        206,
+        202
+      ]
+    },
+    {
+      "id": 204,
+      "x": 124.55154700257869,
+      "y": 638.6134034056731,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        207,
+        205
+      ]
+    },
+    {
+      "id": 205,
+      "x": 154.0,
+      "y": 645.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        208,
+        204,
+        206
+      ]
+    },
+    {
+      "id": 206,
+      "x": 165.00605501936377,
+      "y": 659.243130025059,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Portier",
+      "space_type": "corner",
+      "corner_zone": "portier",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        209,
+        205
+      ]
+    },
+    {
+      "id": 207,
+      "x": 170.50908252904566,
+      "y": 666.3646950375885,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        211,
+        206
+      ]
+    },
+    {
+      "id": 208,
+      "x": 160.11936416277376,
+      "y": 606.1641257238139,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        212,
+        209
+      ]
+    },
+    {
+      "id": 209,
+      "x": 170.7064547209246,
+      "y": 620.7213752412713,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        213,
+        208,
+        210
+      ]
+    },
+    {
+      "id": 210,
+      "x": 181.2935452790754,
+      "y": 635.2786247587287,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        214,
+        209,
+        211
+      ]
+    },
+    {
+      "id": 211,
+      "x": 213.21009426532078,
+      "y": 634.3081382558038,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        215,
+        210
+      ]
+    },
+    {
+      "id": 212,
+      "x": 182.78990573467922,
+      "y": 589.6918617441962,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        216,
+        213
+      ]
+    },
+    {
+      "id": 213,
+      "x": 192.9299685782264,
+      "y": 604.5639539147321,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        217,
+        212,
+        214
+      ]
+    },
+    {
+      "id": 214,
+      "x": 223.40769561148454,
+      "y": 605.329922605851,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        218,
+        213,
+        215
+      ]
+    },
+    {
+      "id": 215,
+      "x": 230.22308683445362,
+      "y": 621.9897678175532,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        219,
+        214
+      ]
+    },
+    {
+      "id": 216,
+      "x": 209.77691316554638,
+      "y": 572.0102321824468,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        220,
+        217
+      ]
+    },
+    {
+      "id": 217,
+      "x": 240.78398115740018,
+      "y": 579.0825284876013,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        221,
+        216,
+        218
+      ]
+    },
+    {
+      "id": 218,
+      "x": 243.21601884259982,
+      "y": 596.9174715123987,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        222,
+        217,
+        219
+      ]
+    },
+    {
+      "id": 219,
+      "x": 245.64805652779947,
+      "y": 614.752414537196,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        223,
+        218
+      ]
+    },
+    {
+      "id": 220,
+      "x": 266.444465143148,
+      "y": 558.110883425372,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        224,
+        221
+      ]
+    },
+    {
+      "id": 221,
+      "x": 264.8148217143827,
+      "y": 576.0369611417907,
+      "lane": 1,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        225,
+        220,
+        222
+      ]
+    },
+    {
+      "id": 222,
+      "x": 263.1851782856173,
+      "y": 593.9630388582093,
+      "lane": 2,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        226,
+        221,
+        223
+      ]
+    },
+    {
+      "id": 223,
+      "x": 274.4416686920458,
+      "y": 611.4009216501255,
+      "lane": 3,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        227,
+        222
+      ]
+    },
+    {
+      "id": 224,
+      "x": 297.5583313079542,
+      "y": 562.5990783498745,
+      "lane": 0,
+      "total_lanes": 4,
+      "section": "Tunnel",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        228,
+        225
+      ]
+    },
+    {
+      "id": 225,
+      "x": 282.14722289734857,
+      "y": 595.1336405500418,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        227,
+        224
+      ]
+    },
+    {
+      "id": 226,
+      "x": 312.0278192849873,
+      "y": 590.3777445720102,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        228,
+        227
+      ]
+    },
+    {
+      "id": 227,
+      "x": 297.9721807150127,
+      "y": 601.6222554279898,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        229,
+        226
+      ]
+    },
+    {
+      "id": 228,
+      "x": 312.0278192849873,
+      "y": 590.3777445720102,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        230,
+        229
+      ]
+    },
+    {
+      "id": 229,
+      "x": 309.44386858563064,
+      "y": 615.8892615034155,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        231,
+        228
+      ]
+    },
+    {
+      "id": 230,
+      "x": 324.55613141436936,
+      "y": 606.1107384965845,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        232,
+        231
+      ]
+    },
+    {
+      "id": 231,
+      "x": 309.44386858563064,
+      "y": 615.8892615034155,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        233,
+        230
+      ]
+    },
+    {
+      "id": 232,
+      "x": 336.6537155287674,
+      "y": 625.5275098489236,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        234,
+        233
+      ]
+    },
+    {
+      "id": 233,
+      "x": 319.3462844712326,
+      "y": 630.4724901510764,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        235,
+        232
+      ]
+    },
+    {
+      "id": 234,
+      "x": 336.6537155287674,
+      "y": 625.5275098489236,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        236,
+        235
+      ]
+    },
+    {
+      "id": 235,
+      "x": 325.0,
+      "y": 649.0,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        237,
+        234
+      ]
+    },
+    {
+      "id": 236,
+      "x": 343.0,
+      "y": 649.0,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        238,
+        237
+      ]
+    },
+    {
+      "id": 237,
+      "x": 325.0,
+      "y": 649.0,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        239,
+        236
+      ]
+    },
+    {
+      "id": 238,
+      "x": 342.35629021796734,
+      "y": 674.3425160871869,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        240,
+        239
+      ]
+    },
+    {
+      "id": 239,
+      "x": 325.64370978203266,
+      "y": 667.6574839128131,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        241,
+        238
+      ]
+    },
+    {
+      "id": 240,
+      "x": 342.35629021796734,
+      "y": 674.3425160871869,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        242,
+        241
+      ]
+    },
+    {
+      "id": 241,
+      "x": 322.51260315235277,
+      "y": 678.8663840980586,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        243,
+        240
+      ]
+    },
+    {
+      "id": 242,
+      "x": 333.48739684764723,
+      "y": 693.1336159019414,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Swimming Pool",
+      "space_type": "corner",
+      "corner_zone": "pool",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        244,
+        243
+      ]
+    },
+    {
+      "id": 243,
+      "x": 322.51260315235277,
+      "y": 678.8663840980586,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        245,
+        242
+      ]
+    },
+    {
+      "id": 244,
+      "x": 316.9523741203679,
+      "y": 704.7856835416555,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        246,
+        245
+      ]
+    },
+    {
+      "id": 245,
+      "x": 313.0476258796321,
+      "y": 687.2143164583445,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        247,
+        244
+      ]
+    },
+    {
+      "id": 246,
+      "x": 316.9523741203679,
+      "y": 704.7856835416555,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        248,
+        247
+      ]
+    },
+    {
+      "id": 247,
+      "x": 298.2160188425998,
+      "y": 691.0825284876013,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        249,
+        246
+      ]
+    },
+    {
+      "id": 248,
+      "x": 295.7839811574002,
+      "y": 708.9174715123987,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        250,
+        249
+      ]
+    },
+    {
+      "id": 249,
+      "x": 298.2160188425998,
+      "y": 691.0825284876013,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        251,
+        248
+      ]
+    },
+    {
+      "id": 250,
+      "x": 271.92431243221966,
+      "y": 705.4581408113959,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        252,
+        251
+      ]
+    },
+    {
+      "id": 251,
+      "x": 278.07568756778034,
+      "y": 688.5418591886041,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        253,
+        250
+      ]
+    },
+    {
+      "id": 252,
+      "x": 271.92431243221966,
+      "y": 705.4581408113959,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        254,
+        253
+      ]
+    },
+    {
+      "id": 253,
+      "x": 257.0249223594996,
+      "y": 680.9501552810008,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        255,
+        252
+      ]
+    },
+    {
+      "id": 254,
+      "x": 248.9750776405004,
+      "y": 697.0498447189992,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        256,
+        255
+      ]
+    },
+    {
+      "id": 255,
+      "x": 257.0249223594996,
+      "y": 680.9501552810008,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        257,
+        254
+      ]
+    },
+    {
+      "id": 256,
+      "x": 225.9299685782264,
+      "y": 685.4360460852679,
+      "lane": 0,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        258,
+        257
+      ]
+    },
+    {
+      "id": 257,
+      "x": 236.0700314217736,
+      "y": 670.5639539147321,
+      "lane": 1,
+      "total_lanes": 2,
+      "section": "Rascasse",
+      "space_type": "corner",
+      "corner_zone": "rascasse",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        259,
+        256
+      ]
+    },
+    {
+      "id": 258,
+      "x": 220.85993715645282,
+      "y": 692.8720921705359,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        261,
+        259
+      ]
+    },
+    {
+      "id": 259,
+      "x": 209.0,
+      "y": 663.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        262,
+        258,
+        260
+      ]
+    },
+    {
+      "id": 260,
+      "x": 220.00605501936377,
+      "y": 648.756869974941,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        263,
+        259
+      ]
+    },
+    {
+      "id": 261,
+      "x": 197.99394498063623,
+      "y": 677.243130025059,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        264,
+        262
+      ]
+    },
+    {
+      "id": 262,
+      "x": 187.0,
+      "y": 646.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        265,
+        261,
+        263
+      ]
+    },
+    {
+      "id": 263,
+      "x": 197.58709055815083,
+      "y": 631.4427504825426,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        266,
+        262
+      ]
+    },
+    {
+      "id": 264,
+      "x": 176.41290944184917,
+      "y": 660.5572495174574,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        267,
+        265
+      ]
+    },
+    {
+      "id": 265,
+      "x": 165.0,
+      "y": 630.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        268,
+        264,
+        266
+      ]
+    },
+    {
+      "id": 266,
+      "x": 176.00605501936377,
+      "y": 615.756869974941,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        269,
+        265
+      ]
+    },
+    {
+      "id": 267,
+      "x": 153.99394498063623,
+      "y": 644.243130025059,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        270,
+        268
+      ]
+    },
+    {
+      "id": 268,
+      "x": 143.0,
+      "y": 613.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        271,
+        267,
+        269
+      ]
+    },
+    {
+      "id": 269,
+      "x": 154.32556811602336,
+      "y": 599.0095923272653,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        272,
+        268
+      ]
+    },
+    {
+      "id": 270,
+      "x": 131.67443188397664,
+      "y": 626.9904076727347,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        273,
+        271
+      ]
+    },
+    {
+      "id": 271,
+      "x": 122.0,
+      "y": 596.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        274,
+        270,
+        272
+      ]
+    },
+    {
+      "id": 272,
+      "x": 137.18590677917794,
+      "y": 586.3362411405232,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        275,
+        271
+      ]
+    },
+    {
+      "id": 273,
+      "x": 106.81409322082206,
+      "y": 605.6637588594768,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        276,
+        274
+      ]
+    },
+    {
+      "id": 274,
+      "x": 108.0,
+      "y": 574.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        277,
+        273,
+        275
+      ]
+    },
+    {
+      "id": 275,
+      "x": 125.83494302479738,
+      "y": 571.5679623148004,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Anthony Noghes",
+      "space_type": "corner",
+      "corner_zone": "noghes",
+      "corner_stops_required": 1,
+      "connected_spaces": [
+        278,
+        274
+      ]
+    },
+    {
+      "id": 276,
+      "x": 90.16505697520262,
+      "y": 576.4320376851996,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        279,
+        277
+      ]
+    },
+    {
+      "id": 277,
+      "x": 105.0,
+      "y": 552.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        280,
+        276,
+        278
+      ]
+    },
+    {
+      "id": 278,
+      "x": 122.92607771641866,
+      "y": 553.6296434287653,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        281,
+        277
+      ]
+    },
+    {
+      "id": 279,
+      "x": 87.07392228358134,
+      "y": 550.3703565712347,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        282,
+        280
+      ]
+    },
+    {
+      "id": 280,
+      "x": 107.0,
+      "y": 530.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        283,
+        279,
+        281
+      ]
+    },
+    {
+      "id": 281,
+      "x": 124.55239140424628,
+      "y": 533.9891798646014,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        284,
+        280
+      ]
+    },
+    {
+      "id": 282,
+      "x": 89.44760859575372,
+      "y": 526.0108201353986,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        285,
+        283
+      ]
+    },
+    {
+      "id": 283,
+      "x": 112.0,
+      "y": 508.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        286,
+        282,
+        284
+      ]
+    },
+    {
+      "id": 284,
+      "x": 129.36574878227918,
+      "y": 512.736113304258,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        287,
+        283
+      ]
+    },
+    {
+      "id": 285,
+      "x": 94.63425121772082,
+      "y": 503.26388669574203,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        288,
+        286
+      ]
+    },
+    {
+      "id": 286,
+      "x": 118.0,
+      "y": 486.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        289,
+        285,
+        287
+      ]
+    },
+    {
+      "id": 287,
+      "x": 135.55239140424626,
+      "y": 489.98917986460145,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        290,
+        286
+      ]
+    },
+    {
+      "id": 288,
+      "x": 100.44760859575372,
+      "y": 482.01082013539855,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        291,
+        289
+      ]
+    },
+    {
+      "id": 289,
+      "x": 123.0,
+      "y": 464.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        292,
+        288,
+        290
+      ]
+    },
+    {
+      "id": 290,
+      "x": 140.36574878227918,
+      "y": 468.73611330425797,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        293,
+        289
+      ]
+    },
+    {
+      "id": 291,
+      "x": 105.63425121772082,
+      "y": 459.26388669574203,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        294,
+        292
+      ]
+    },
+    {
+      "id": 292,
+      "x": 129.0,
+      "y": 442.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        295,
+        291,
+        293
+      ]
+    },
+    {
+      "id": 293,
+      "x": 146.36574878227918,
+      "y": 446.73611330425797,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        296,
+        292
+      ]
+    },
+    {
+      "id": 294,
+      "x": 111.63425121772082,
+      "y": 437.26388669574203,
+      "lane": 0,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        295
+      ]
+    },
+    {
+      "id": 295,
+      "x": 135.0,
+      "y": 420.0,
+      "lane": 1,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        294,
+        296
+      ]
+    },
+    {
+      "id": 296,
+      "x": 135.0,
+      "y": 438.0,
+      "lane": 2,
+      "total_lanes": 3,
+      "section": "Final",
+      "space_type": "normal",
+      "corner_zone": null,
+      "corner_stops_required": 0,
+      "connected_spaces": [
+        295
+      ]
+    }
+  ]
+}

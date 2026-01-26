@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coordinate Integration Test</title>
+    <style>
+        body { background: #000; color: #fff; font-family: Arial; padding: 20px; }
+        .test { background: #222; padding: 15px; margin: 10px 0; border: 1px solid #0f0; }
+        .success { color: #0f0; }
+        .error { color: #f00; }
+        button { padding: 10px; margin: 5px; background: #333; color: #0f0; border: 1px solid #0f0; }
+    </style>
+</head>
+<body>
+    <h2>🏎️ Track Coordinate Integration Test</h2>
+    
+    <div class="test">
+        <button onclick="testCoordinates()">Test Coordinate Loading</button>
+        <div id="results"></div>
+    </div>
+    
+    <script>
+        async function testCoordinates() {
+            const results = document.getElementById('results');
+            results.innerHTML = 'Testing...';
+            
+            try {
+                const response = await fetch('/track-coordinates');
+                const data = await response.json();
+                
+                let html = `<div class="success">✅ Success!</div>`;
+                html += `<div>Loaded ${data.spaces.length} spaces</div>`;
+                html += `<div>Track: ${data.name}</div>`;
+                
+                // Test first few spaces
+                html += '<div><strong>First 5 spaces:</strong></div>';
+                for (let i = 0; i < 5 && i < data.spaces.length; i++) {
+                    const space = data.spaces[i];
+                    html += `<div>Space ${space.id}: (${space.x}, ${space.y}) lane ${space.lane}</div>`;
+                }
+                
+                // Test corner zones
+                const cornerSpaces = data.spaces.filter(s => s.space_type === 'corner');
+                html += `<div>Corner spaces: ${cornerSpaces.length}</div>`;
+                
+                results.innerHTML = html;
+                
+                // Store for other tests
+                window.spacePositions = data.spaces;
+                
+            } catch (error) {
+                results.innerHTML = `<div class="error">❌ Error: ${error.message}</div>`;
+            }
+        }
+    </script>
+</body>
+</html>

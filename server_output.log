@@ -1,0 +1,37 @@
+INFO:     Started server process [840584]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58180 - "GET /play HTTP/1.1" 200 OK
+INFO:     100.68.246.30:36942 - "GET /play HTTP/1.1" 200 OK
+INFO:     100.68.246.30:36942 - "GET /games HTTP/1.1" 200 OK
+INFO:     100.68.246.30:38656 - "GET /play HTTP/1.1" 200 OK
+INFO:     100.68.246.30:38656 - "GET /games HTTP/1.1" 200 OK
+INFO:     100.68.246.30:38672 - "GET /play HTTP/1.1" 200 OK
+INFO:     100.68.246.30:38672 - "GET /games HTTP/1.1" 200 OK
+INFO:     100.68.246.30:38672 - "GET /play HTTP/1.1" 200 OK
+INFO:     100.68.246.30:38672 - "GET /games HTTP/1.1" 200 OK
+INFO:     100.68.246.30:53680 - "POST /create-game HTTP/1.1" 200 OK
+INFO:     100.68.246.30:53680 - "GET /game/8b7f4308 HTTP/1.1" 200 OK
+INFO:     100.68.246.30:48572 - "WebSocket /ws/8b7f4308" [accepted]
+INFO:     connection open
+WebSocket message received in game 8b7f4308: {'type': 'register', 'player_id': 0}
+Registering player 0
+Bot [BOT] Speedster auto-selected gear 1
+INFO:     100.68.246.30:53680 - "POST /add-bot/8b7f4308 HTTP/1.1" 200 OK
+Bot [BOT] Blaze auto-selected gear 1
+INFO:     100.68.246.30:53656 - "POST /add-bot/8b7f4308 HTTP/1.1" 200 OK
+Bot [BOT] Thunder auto-selected gear 1
+INFO:     100.68.246.30:53656 - "POST /add-bot/8b7f4308 HTTP/1.1" 200 OK
+INFO:     connection closed
+WebSocket message received in game 8b7f4308: {'type': 'start_race'}
+Start race requested by player 0
+Starting race procedure...
+Bot [BOT] Speedster selected gear 3
+Bot [BOT] Blaze selected gear 2
+Bot [BOT] Thunder selected gear 1
+INFO:     127.0.0.1:33516 - "GET /play HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [840584]

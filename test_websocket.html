@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Test</title>
+</head>
+<body>
+    <h1>WebSocket Test</h1>
+    <div id="status">Not connected</div>
+    <div id="messages"></div>
+    
+    <script>
+        const ws = new WebSocket('ws://localhost:8000/ws/test123');
+        const status = document.getElementById('status');
+        const messages = document.getElementById('messages');
+        
+        ws.onopen = () => {
+            status.textContent = 'Connected';
+            ws.send(JSON.stringify({type: 'register', player_id: 0}));
+        };
+        
+        ws.onmessage = (e) => {
+            const msg = JSON.parse(e.data);
+            messages.innerHTML += '<pre>' + JSON.stringify(msg, null, 2) + '</pre>';
+        };
+        
+        ws.onerror = (e) => {
+            status.textContent = 'Error: ' + e;
+        };
+        
+        ws.onclose = () => {
+            status.textContent = 'Closed';
+        };
+    </script>
+</body>
+</html>

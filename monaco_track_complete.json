@@ -1,0 +1,18 @@
+{
+  "name": "Circuit de Monaco",
+  "total_spaces": 297,
+  "sections": [
+    {"name": "Start/Finish", "start": 0, "end": 30, "lanes": 3},
+    {"name": "Sainte Devote", "start": 30, "end": 48, "lanes": 2},
+    {"name": "Beau Rivage", "start": 48, "end": 72, "lanes": 3},
+    {"name": "Massenet", "start": 72, "end": 96, "lanes": 3},
+    {"name": "Casino", "start": 96, "end": 132, "lanes": 4},
+    {"name": "Grand Hotel Hairpin", "start": 132, "end": 162, "lanes": 2},
+    {"name": "Portier", "start": 162, "end": 207, "lanes": 3},
+    {"name": "Tunnel", "start": 207, "end": 225, "lanes": 4},
+    {"name": "Swimming Pool", "start": 225, "end": 243, "lanes": 2},
+    {"name": "Rascasse", "start": 243, "end": 258, "lanes": 2},
+    {"name": "Anthony Noghes", "start": 258, "end": 276, "lanes": 3},
+    {"name": "Final", "start": 276, "end": 297, "lanes": 3}
+  ],
+  "spaces": [

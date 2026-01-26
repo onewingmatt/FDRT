@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formula D - Monaco Board</title>
+    <style>
+        body { 
+            background: #000; 
+            color: #fff; 
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 20px;
+            overflow-x: auto;
+        }
+        #gameContainer {
+            position: relative;
+            display: inline-block;
+            margin: 20px auto;
+        }
+        #boardImage {
+            display: block;
+            width: 1200px;
+            height: auto;
+        }
+        #carsCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+        .controls {
+            background: #222;
+            padding: 15px;
+            margin: 10px 0;
+            border: 2px solid #0f0;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            background: #333;
+            color: #0f0;
+            border: 1px solid #0f0;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover { background: #0f0; color: #000; }
+        input { padding: 8px; background: #333; color: #0f0; border: 1px solid #0f0; margin: 5px; }
+        #log {
+            background: #000;
+            border: 1px solid #0f0;
+            padding: 10px;
+            height: 150px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 11px;
+            color: #0f0;
+        }
+    </style>
+</head>
+<body>
+    <h2>🏎️ Formula D - Circuit de Monaco</h2>
+    
+    <div class="controls">
+        <input type="text" id="playerNames" placeholder="Alice,Bob,Charlie" style="width: 200px;">
+        <button onclick="createGame()">Create Game</button>
+        <button onclick="startRace()">Start Race</button>
+        <input type="text" id="gameId" placeholder="Game ID" style="width: 100px;">
+        <input type="number" id="playerId" placeholder="Player #" style="width: 80px;">
+        <button onclick="connect()">Connect</button>
+    </div>
+    
+    <div id="gameContainer">
+        <!-- Replace with actual board image path -->
+        <img id="boardImage" src="/static/monaco_board.jpg" alt="Monaco Board">
+        <canvas id="carsCanvas"></canvas>
+    </div>
+    
+    <div class="controls" id="gearControls" style="display:none;">
+        <strong>Select Gear:</strong>
+        <button onclick="selectGear(1)">1st</button>
+        <button onclick="selectGear(2)">2nd</button>
+        <button onclick="selectGear(3)">3rd</button>
+        <button onclick="selectGear(4)">4th</button>
+        <button onclick="selectGear(5)">5th</button>
+        <button onclick="selectGear(6)">6th</button>
+        <span id="gearStatus"></span>
+    </div>
+    
+    <div class="controls" id="laneControls" style="display:none;">
+        <strong>Select Lane:</strong>
+        <button onclick="selectLane(0)">Inside</button>
+        <button onclick="selectLane(1)">Middle</button>
+        <button onclick="selectLane(2)">Outside</button>
+        <button onclick="selectLane(3)">Outside+</button>
+    </div>
+    
+    <div id="log"></div>
+    
+    <script>
+        let ws, gameId, playerId, gameState, selectedGear;
+        const playerColors = ['#ff0', '#0ff', '#f0f', '#0f0', '#f80', '#08f', '#f08', '#8f0'];
+        
+        // Approximate space positions on the board (you'll need to map these precisely)
+        // Format: {x: pixels from left, y: pixels from top} for each of 297 spaces
+        // This is a ROUGH approximation - needs precise mapping
+        const spacePositions = generateApproximatePositions();
+        
+        function generateApproximatePositions() {
+            // For now, create a simple mapping
+            // You'd want to manually map key positions from the board image
+            const positions = [];
+            // This is placeholder - would need actual coordinates from board
+            for (let i = 0; i < 297; i++) {
+                positions.push({x: 100 + i * 3, y: 400}); // Temporary
+            }
+            return positions;
+        }
+        
+        function log(msg) {
+            const el = document.getElementById('log');
+            el.innerHTML += msg + '\n';
+            el.scrollTop = el.scrollHeight;
+        }
+        
+        const img = document.getElementById('boardImage');
+        const canvas = document.getElementById('carsCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        img.onload = function() {
+            canvas.width = img.width;
+            canvas.height = img.height;
+            log('✅ Board loaded: ' + img.width + 'x' + img.height);
+        };
+        
+        function drawCars() {
+            if (!gameState) return;
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            gameState.players.forEach((player, idx) => {
+                const pos = spacePositions[player.current_space] || {x: 100, y: 100};
+                
+                // Draw car
+                ctx.fillStyle = playerColors[idx];
+                ctx.beginPath();
+                ctx.arc(pos.x, pos.y, 12, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.strokeStyle = '#000';
+                ctx.lineWidth = 2;
+                ctx.stroke();
+                
+                // Gear number
+                ctx.fillStyle = '#000';
+                ctx.font = 'bold 12px Arial';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(player.current_gear, pos.x, pos.y);
+                
+                // Name
+                ctx.fillStyle = playerColors[idx];
+                ctx.font = 'bold 11px Arial';
+                ctx.fillText(player.name, pos.x, pos.y - 18);
+            });
+        }
+        
+        async function createGame() {
+            const names = document.getElementById('playerNames').value.split(',').map(n => n.trim());
+            const r = await fetch('http://10.0.0.76:8000/create-game', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({player_names: names})
+            });
+            const data = await r.json();
+            gameId = data.game_id;
+            document.getElementById('gameId').value = gameId;
+            log('✅ Game created: ' + gameId);
+        }
+        
+        async function startRace() {
+            const gid = gameId || document.getElementById('gameId').value;
+            await fetch('http://10.0.0.76:8000/game/' + gid + '/start', {method: 'POST'});
+            log('✅ Race started!');
+        }
+        
+        function connect() {
+            const gid = document.getElementById('gameId').value;
+            playerId = parseInt(document.getElementById('playerId').value);
+            ws = new WebSocket('ws://10.0.0.76:8000/ws/' + gid);
+            
+            ws.onopen = () => {
+                log('✅ Connected as Player ' + playerId);
+                document.getElementById('gearControls').style.display = 'block';
+            };
+            
+            ws.onmessage = (e) => {
+                const data = JSON.parse(e.data);
+                if (data.type === 'state') {
+                    gameState = data.state;
+                    drawCars();
+                    log('📊 Turn ' + data.state.current_turn);
+                    if (data.state.race_finished) {
+                        log('🏆 WINNER: ' + data.state.players[data.state.winner].name);
+                    }
+                } else if (data.type === 'gear_accepted') {
+                    log('✅ Gear accepted (' + data.ready_count + '/' + data.total_players + ')');
+                } else if (data.type === 'error') {
+                    log('❌ ' + data.message);
+                }
+            };
+        }
+        
+        function selectGear(g) {
+            selectedGear = g;
+            document.getElementById('gearStatus').textContent = ' Gear ' + g + ' selected';
+            document.getElementById('laneControls').style.display = 'block';
+        }
+        
+        function selectLane(lane) {
+            if (!selectedGear) return;
+            ws.send(JSON.stringify({
+                type: 'gear_selection',
+                player_id: playerId,
+                gear: selectedGear,
+                lane: lane
+            }));
+            log('⚙️ Gear ' + selectedGear + ' | Lane ' + lane);
+            selectedGear = null;
+            document.getElementById('gearStatus').textContent = '';
+            document.getElementById('laneControls').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

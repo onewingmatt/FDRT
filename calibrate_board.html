@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monaco Board Calibrator</title>
+</head>
+<body>
+    <h2>Click on the board to get coordinates</h2>
+    <p id="coords">Click anywhere on the image...</p>
+    <img id="board" src="/static/monaco_board.jpg" style="border: 2px solid black; cursor: crosshair;">
+    
+    <script>
+        const img = document.getElementById('board');
+        const coords = document.getElementById('coords');
+        
+        img.onload = () => {
+            coords.textContent = `Image size: ${img.naturalWidth} x ${img.naturalHeight}`;
+        };
+        
+        img.onclick = (e) => {
+            const rect = img.getBoundingClientRect();
+            const x = Math.round(e.clientX - rect.left);
+            const y = Math.round(e.clientY - rect.top);
+            coords.textContent = `Coordinates: [${x}, ${y}] - Image: ${img.naturalWidth}x${img.naturalHeight}`;
+            console.log(`Position: [${x}, ${y}]`);
+        };
+    </script>
+</body>
+</html>

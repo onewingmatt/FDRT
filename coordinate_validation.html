@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🏎️ Coordinate Validation Test</title>
+    <style>
+        body { background: #000; color: #fff; font-family: Arial; padding: 20px; }
+        .test { background: #222; padding: 15px; margin: 10px 0; border: 1px solid #0f0; }
+        .success { color: #0f0; margin: 10px 0; }
+        .results { background: #333; padding: 10px; margin: 10px 0; }
+        pre { color: #ff0; font-size: 12px; }
+        button { padding: 10px 20px; margin: 5px; background: #333; color: #0f0; border: 1px solid #0f0; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>🏎️ Phase 2: Coordinate Validation</h2>
+    
+    <div class="test">
+        <button onclick="runValidation()">🔍 Run Full Validation</button>
+        <div id="status"></div>
+    </div>
+    
+    <div class="results">
+        <h3>📊 Validation Results:</h3>
+        <pre id="results"></pre>
+    </div>
+    
+    <script>
+        async function runValidation() {
+            const status = document.getElementById('status');
+            const results = document.getElementById('results');
+            
+            status.innerHTML = '⏳ Running validation tests...';
+            results.innerHTML = '';
+            
+            try {
+                // Test 1: Load track coordinates
+                const coordResponse = await fetch('/track-coordinates');
+                const trackData = await coordResponse.json();
+                
+                let report = '=== 🏎️ COORDINATE VALIDATION REPORT ===\n\n';
+                report += `✅ Track Name: ${trackData.name}\n`;
+                report += `✅ Total Spaces: ${trackData.spaces.length}\n`;
+                
+                // Test 2: Verify key sections
+                const startSpaces = trackData.spaces.filter(s => s.id >= 0 && s.id < 30);
+                const sainteDevoteSpaces = trackData.spaces.filter(s => s.id >= 30 && s.id < 48);
+                const casinoSpaces = trackData.spaces.filter(s => s.id >= 96 && s.id < 132);
+                const hairpinSpaces = trackData.spaces.filter(s => s.id >= 132 && s.id < 162);
+                
+                report += `✅ Start/Finish: ${startSpaces.length} spaces\n`;
+                report += `✅ Sainte Devote: ${sainteDevoteSpaces.length} spaces\n`;
+                report += `✅ Casino: ${casinoSpaces.length} spaces\n`;
+                report += `✅ Grand Hotel Hairpin: ${hairpinSpaces.length} spaces\n`;
+                
+                // Test 3: Check coordinate ranges
+                const xCoords = trackData.spaces.map(s => s.x);
+                const yCoords = trackData.spaces.map(s => s.y);
+                const minX = Math.min(...xCoords);
+                const maxX = Math.max(...xCoords);
+                const minY = Math.min(...yCoords);
+                const maxY = Math.max(...yCoords);
+                
+                report += `✅ X Range: ${minX.toFixed(0)} to ${maxX.toFixed(0)}\n`;
+                report += `✅ Y Range: ${minY.toFixed(0)} to ${maxY.toFixed(0)}\n`;
+                
+                // Test 4: Lane validation
+                const laneCounts = {};
+                trackData.spaces.forEach(s => {
+                    const lanes = s.total_lanes || 3;
+                    laneCounts[lanes] = (laneCounts[lanes] || 0) + 1;
+                });
+                
+                report += `✅ Lane Distribution:\n`;
+                for (const [lanes, count] of Object.entries(laneCounts)) {
+                    report += `   ${lanes} lanes: ${count} spaces\n`;
+                }
+                
+                // Test 5: Corner zone detection
+                const cornerSpaces = trackData.spaces.filter(s => s.space_type === 'corner');
+                report += `✅ Corner Spaces: ${cornerSpaces.length}\n`;
+                
+                // Test 6: Sample coordinates
+                report += `✅ Sample Coordinates (first 10):\n`;
+                for (let i = 0; i < 10 && i < trackData.spaces.length; i++) {
+                    const space = trackData.spaces[i];
+                    report += `   Space ${space.id}: (${space.x.toFixed(1)}, ${space.y.toFixed(1)}) lane ${space.lane} - ${space.space_type}\n`;
+                }
+                
+                status.innerHTML = '✅ Validation Complete!';
+                results.textContent = report;
+                
+                // Store for use
+                window.trackData = trackData;
+                console.log('Track data loaded:', trackData);
+                
+            } catch (error) {
+                status.innerHTML = '❌ Validation Failed!';
+                results.textContent = `Error: ${error.message}\n${error.stack}`;
+            }
+        }
+        
+        // Auto-run on page load
+        window.onload = runValidation;
+    </script>
+</body>
+</html>

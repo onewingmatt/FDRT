@@ -1,0 +1,2882 @@
+[
+  {
+    "id": 0,
+    "x": 100.0,
+    "y": 532.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 1,
+    "x": 100.0,
+    "y": 550.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 2,
+    "x": 100.0,
+    "y": 568.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 3,
+    "x": 120.0,
+    "y": 532.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 4,
+    "x": 120.0,
+    "y": 550.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 5,
+    "x": 120.0,
+    "y": 568.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 6,
+    "x": 140.0,
+    "y": 532.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 7,
+    "x": 140.0,
+    "y": 550.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 8,
+    "x": 140.0,
+    "y": 568.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 9,
+    "x": 160.0,
+    "y": 532.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 10,
+    "x": 160.0,
+    "y": 550.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 11,
+    "x": 160.0,
+    "y": 568.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 12,
+    "x": 180.0,
+    "y": 532.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 13,
+    "x": 180.0,
+    "y": 550.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 14,
+    "x": 180.0,
+    "y": 568.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 15,
+    "x": 200.0,
+    "y": 532.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 16,
+    "x": 200.0,
+    "y": 550.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 17,
+    "x": 200.0,
+    "y": 568.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 18,
+    "x": 220.0,
+    "y": 532.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 19,
+    "x": 220.0,
+    "y": 550.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 20,
+    "x": 220.0,
+    "y": 568.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 21,
+    "x": 240.0,
+    "y": 532.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 22,
+    "x": 240.0,
+    "y": 550.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 23,
+    "x": 240.0,
+    "y": 568.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 24,
+    "x": 260.0,
+    "y": 532.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 25,
+    "x": 260.0,
+    "y": 550.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 26,
+    "x": 260.0,
+    "y": 568.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 27,
+    "x": 280.0,
+    "y": 532.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 28,
+    "x": 280.0,
+    "y": 550.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 29,
+    "x": 280.0,
+    "y": 568.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Start/Finish",
+    "corner_stops": 0
+  },
+  {
+    "id": 30,
+    "x": 300.0,
+    "y": 559.0,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 31,
+    "x": 300.0,
+    "y": 541.0,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 32,
+    "x": 313.2,
+    "y": 560.7,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 33,
+    "x": 317.9,
+    "y": 543.4,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 34,
+    "x": 325.5,
+    "y": 565.8,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 35,
+    "x": 334.5,
+    "y": 550.2,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 36,
+    "x": 336.1,
+    "y": 573.9,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 37,
+    "x": 348.8,
+    "y": 561.2,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 38,
+    "x": 344.2,
+    "y": 584.5,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 39,
+    "x": 359.8,
+    "y": 575.5,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 40,
+    "x": 349.3,
+    "y": 596.8,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 41,
+    "x": 366.6,
+    "y": 592.1,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Sainte Devote",
+    "corner_stops": 1
+  },
+  {
+    "id": 42,
+    "x": 378.0,
+    "y": 610.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 43,
+    "x": 360.0,
+    "y": 610.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 44,
+    "x": 342.0,
+    "y": 610.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 45,
+    "x": 378.0,
+    "y": 630.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 46,
+    "x": 360.0,
+    "y": 630.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 47,
+    "x": 342.0,
+    "y": 630.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 48,
+    "x": 378.0,
+    "y": 650.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 49,
+    "x": 360.0,
+    "y": 650.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 50,
+    "x": 342.0,
+    "y": 650.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 51,
+    "x": 378.0,
+    "y": 670.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 52,
+    "x": 360.0,
+    "y": 670.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 53,
+    "x": 342.0,
+    "y": 670.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 54,
+    "x": 378.0,
+    "y": 690.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 55,
+    "x": 360.0,
+    "y": 690.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 56,
+    "x": 342.0,
+    "y": 690.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 57,
+    "x": 378.0,
+    "y": 710.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 58,
+    "x": 360.0,
+    "y": 710.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 59,
+    "x": 342.0,
+    "y": 710.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 60,
+    "x": 378.0,
+    "y": 730.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 61,
+    "x": 360.0,
+    "y": 730.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 62,
+    "x": 342.0,
+    "y": 730.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 63,
+    "x": 378.0,
+    "y": 750.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 64,
+    "x": 360.0,
+    "y": 750.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 65,
+    "x": 342.0,
+    "y": 750.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Beau Rivage",
+    "corner_stops": 0
+  },
+  {
+    "id": 66,
+    "x": 342.0,
+    "y": 770.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 67,
+    "x": 360.0,
+    "y": 770.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 68,
+    "x": 378.0,
+    "y": 770.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 69,
+    "x": 341.5,
+    "y": 778.1,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 70,
+    "x": 359.3,
+    "y": 780.4,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 71,
+    "x": 377.2,
+    "y": 782.8,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 72,
+    "x": 339.9,
+    "y": 786.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 73,
+    "x": 357.3,
+    "y": 790.7,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 74,
+    "x": 374.7,
+    "y": 795.4,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 75,
+    "x": 337.3,
+    "y": 793.7,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 76,
+    "x": 353.9,
+    "y": 800.6,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 77,
+    "x": 370.5,
+    "y": 807.5,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 78,
+    "x": 333.7,
+    "y": 801.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 79,
+    "x": 349.3,
+    "y": 810.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 80,
+    "x": 364.9,
+    "y": 819.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 81,
+    "x": 329.2,
+    "y": 807.7,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 82,
+    "x": 343.5,
+    "y": 818.7,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 83,
+    "x": 357.7,
+    "y": 829.7,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 84,
+    "x": 323.8,
+    "y": 813.8,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 85,
+    "x": 336.6,
+    "y": 826.6,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 86,
+    "x": 349.3,
+    "y": 839.3,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 87,
+    "x": 317.7,
+    "y": 819.2,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 88,
+    "x": 328.7,
+    "y": 833.5,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 89,
+    "x": 339.7,
+    "y": 847.7,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Massenet",
+    "corner_stops": 2
+  },
+  {
+    "id": 90,
+    "x": 333.5,
+    "y": 862.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 91,
+    "x": 324.5,
+    "y": 847.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 92,
+    "x": 315.5,
+    "y": 831.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 93,
+    "x": 306.5,
+    "y": 815.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 94,
+    "x": 316.2,
+    "y": 872.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 95,
+    "x": 307.2,
+    "y": 857.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 96,
+    "x": 298.2,
+    "y": 841.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 97,
+    "x": 289.2,
+    "y": 825.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 98,
+    "x": 298.9,
+    "y": 882.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 99,
+    "x": 289.9,
+    "y": 867.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 100,
+    "x": 280.9,
+    "y": 851.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 101,
+    "x": 271.9,
+    "y": 835.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 102,
+    "x": 281.5,
+    "y": 892.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 103,
+    "x": 272.5,
+    "y": 877.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 104,
+    "x": 263.5,
+    "y": 861.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 105,
+    "x": 254.5,
+    "y": 845.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 106,
+    "x": 264.2,
+    "y": 902.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 107,
+    "x": 255.2,
+    "y": 887.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 108,
+    "x": 246.2,
+    "y": 871.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 109,
+    "x": 237.2,
+    "y": 855.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 110,
+    "x": 246.9,
+    "y": 912.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 111,
+    "x": 237.9,
+    "y": 897.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 112,
+    "x": 228.9,
+    "y": 881.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 113,
+    "x": 219.9,
+    "y": 865.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 114,
+    "x": 229.6,
+    "y": 922.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 115,
+    "x": 220.6,
+    "y": 907.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 116,
+    "x": 211.6,
+    "y": 891.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 117,
+    "x": 202.6,
+    "y": 875.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 118,
+    "x": 212.3,
+    "y": 932.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 119,
+    "x": 203.3,
+    "y": 917.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 120,
+    "x": 194.3,
+    "y": 901.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 121,
+    "x": 185.3,
+    "y": 885.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 122,
+    "x": 194.9,
+    "y": 942.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 123,
+    "x": 185.9,
+    "y": 927.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 124,
+    "x": 176.9,
+    "y": 911.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 125,
+    "x": 167.9,
+    "y": 895.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 126,
+    "x": 177.6,
+    "y": 952.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 127,
+    "x": 168.6,
+    "y": 937.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 128,
+    "x": 159.6,
+    "y": 921.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 129,
+    "x": 150.6,
+    "y": 905.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 130,
+    "x": 160.3,
+    "y": 962.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 131,
+    "x": 151.3,
+    "y": 947.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 132,
+    "x": 142.3,
+    "y": 931.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 133,
+    "x": 133.3,
+    "y": 915.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 134,
+    "x": 143.0,
+    "y": 972.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 135,
+    "x": 134.0,
+    "y": 957.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 136,
+    "x": 125.0,
+    "y": 941.5,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 137,
+    "x": 116.0,
+    "y": 925.9,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Casino Square",
+    "corner_stops": 0
+  },
+  {
+    "id": 138,
+    "x": 107.7,
+    "y": 951.5,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 139,
+    "x": 116.7,
+    "y": 967.1,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 140,
+    "x": 100.4,
+    "y": 954.9,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 141,
+    "x": 106.9,
+    "y": 971.7,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 142,
+    "x": 92.8,
+    "y": 957.2,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 143,
+    "x": 96.5,
+    "y": 974.8,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 144,
+    "x": 84.8,
+    "y": 958.3,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 145,
+    "x": 85.8,
+    "y": 976.2,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 146,
+    "x": 76.8,
+    "y": 958.0,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 147,
+    "x": 74.9,
+    "y": 975.9,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 148,
+    "x": 69.0,
+    "y": 956.6,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 149,
+    "x": 64.3,
+    "y": 974.0,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 150,
+    "x": 61.4,
+    "y": 953.9,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 151,
+    "x": 54.1,
+    "y": 970.4,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 152,
+    "x": 54.4,
+    "y": 950.1,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 153,
+    "x": 44.6,
+    "y": 965.2,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 154,
+    "x": 48.0,
+    "y": 945.2,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 155,
+    "x": 36.0,
+    "y": 958.6,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 156,
+    "x": 42.5,
+    "y": 939.4,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 157,
+    "x": 28.5,
+    "y": 950.7,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Grand Hotel Hairpin",
+    "corner_stops": 2
+  },
+  {
+    "id": 158,
+    "x": 14.6,
+    "y": 946.3,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 159,
+    "x": 30.2,
+    "y": 937.3,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 160,
+    "x": 45.8,
+    "y": 928.3,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 161,
+    "x": 4.6,
+    "y": 929.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 162,
+    "x": 20.2,
+    "y": 920.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 163,
+    "x": 35.8,
+    "y": 911.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 164,
+    "x": -5.4,
+    "y": 911.7,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 165,
+    "x": 10.2,
+    "y": 902.7,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 166,
+    "x": 25.8,
+    "y": 893.7,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 167,
+    "x": -15.4,
+    "y": 894.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 168,
+    "x": 0.2,
+    "y": 885.4,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 169,
+    "x": 15.8,
+    "y": 876.4,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 170,
+    "x": -25.4,
+    "y": 877.0,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 171,
+    "x": -9.8,
+    "y": 868.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 172,
+    "x": 5.8,
+    "y": 859.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 173,
+    "x": -35.4,
+    "y": 859.7,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 174,
+    "x": -19.8,
+    "y": 850.7,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 175,
+    "x": -4.2,
+    "y": 841.7,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 176,
+    "x": -45.4,
+    "y": 842.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 177,
+    "x": -29.8,
+    "y": 833.4,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 178,
+    "x": -14.2,
+    "y": 824.4,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 179,
+    "x": -55.4,
+    "y": 825.1,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 180,
+    "x": -39.8,
+    "y": 816.1,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 181,
+    "x": -24.2,
+    "y": 807.1,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 182,
+    "x": -65.4,
+    "y": 807.8,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 183,
+    "x": -49.8,
+    "y": 798.8,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 184,
+    "x": -34.2,
+    "y": 789.8,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 185,
+    "x": -75.4,
+    "y": 790.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 186,
+    "x": -59.8,
+    "y": 781.4,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 187,
+    "x": -44.2,
+    "y": 772.4,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 188,
+    "x": -85.4,
+    "y": 773.1,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 189,
+    "x": -69.8,
+    "y": 764.1,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 190,
+    "x": -54.2,
+    "y": 755.1,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 191,
+    "x": -95.4,
+    "y": 755.8,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 192,
+    "x": -79.8,
+    "y": 746.8,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 193,
+    "x": -64.2,
+    "y": 737.8,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 194,
+    "x": -105.4,
+    "y": 738.5,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 195,
+    "x": -89.8,
+    "y": 729.5,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 196,
+    "x": -74.2,
+    "y": 720.5,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 197,
+    "x": -115.4,
+    "y": 721.2,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 198,
+    "x": -99.8,
+    "y": 712.2,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 199,
+    "x": -84.2,
+    "y": 703.2,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 200,
+    "x": -125.4,
+    "y": 703.8,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 201,
+    "x": -109.8,
+    "y": 694.8,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 202,
+    "x": -94.2,
+    "y": 685.8,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Portier",
+    "corner_stops": 0
+  },
+  {
+    "id": 203,
+    "x": -143.2,
+    "y": 691.0,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 204,
+    "x": -127.6,
+    "y": 682.0,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 205,
+    "x": -112.0,
+    "y": 673.0,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 206,
+    "x": -96.4,
+    "y": 664.0,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 207,
+    "x": -153.2,
+    "y": 673.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 208,
+    "x": -137.6,
+    "y": 664.7,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 209,
+    "x": -122.0,
+    "y": 655.7,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 210,
+    "x": -106.4,
+    "y": 646.7,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 211,
+    "x": -163.2,
+    "y": 656.4,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 212,
+    "x": -147.6,
+    "y": 647.4,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 213,
+    "x": -132.0,
+    "y": 638.4,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 214,
+    "x": -116.4,
+    "y": 629.4,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 215,
+    "x": -173.2,
+    "y": 639.1,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 216,
+    "x": -157.6,
+    "y": 630.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 217,
+    "x": -142.0,
+    "y": 621.1,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 218,
+    "x": -126.4,
+    "y": 612.1,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 219,
+    "x": -183.2,
+    "y": 621.7,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 220,
+    "x": -167.6,
+    "y": 612.7,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 221,
+    "x": -152.0,
+    "y": 603.7,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 222,
+    "x": -136.4,
+    "y": 594.7,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 223,
+    "x": -193.2,
+    "y": 604.4,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 224,
+    "x": -177.6,
+    "y": 595.4,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 225,
+    "x": -162.0,
+    "y": 586.4,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 226,
+    "x": -146.4,
+    "y": 577.4,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 227,
+    "x": -203.2,
+    "y": 587.1,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 228,
+    "x": -187.6,
+    "y": 578.1,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 229,
+    "x": -172.0,
+    "y": 569.1,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 230,
+    "x": -156.4,
+    "y": 560.1,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 231,
+    "x": -213.2,
+    "y": 569.8,
+    "lane": 0,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 232,
+    "x": -197.6,
+    "y": 560.8,
+    "lane": 1,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 233,
+    "x": -182.0,
+    "y": 551.8,
+    "lane": 2,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 234,
+    "x": -166.4,
+    "y": 542.8,
+    "lane": 3,
+    "total_lanes": 4,
+    "section": "Tunnel",
+    "corner_stops": 0
+  },
+  {
+    "id": 235,
+    "x": -192.0,
+    "y": 534.4,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 236,
+    "x": -207.6,
+    "y": 543.4,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 237,
+    "x": -197.1,
+    "y": 522.1,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 238,
+    "x": -214.5,
+    "y": 526.8,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 239,
+    "x": -198.8,
+    "y": 508.9,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 240,
+    "x": -216.8,
+    "y": 508.9,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 241,
+    "x": -197.1,
+    "y": 495.7,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 242,
+    "x": -214.5,
+    "y": 491.1,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 243,
+    "x": -192.0,
+    "y": 483.4,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 244,
+    "x": -207.6,
+    "y": 474.4,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 245,
+    "x": -183.9,
+    "y": 472.9,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 246,
+    "x": -196.6,
+    "y": 460.2,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Swimming Pool",
+    "corner_stops": 1
+  },
+  {
+    "id": 247,
+    "x": -186.8,
+    "y": 441.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 248,
+    "x": -177.8,
+    "y": 457.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 249,
+    "x": -168.8,
+    "y": 472.6,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 250,
+    "x": -169.5,
+    "y": 431.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 251,
+    "x": -160.5,
+    "y": 447.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 252,
+    "x": -151.5,
+    "y": 462.6,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 253,
+    "x": -152.2,
+    "y": 421.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 254,
+    "x": -143.2,
+    "y": 437.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 255,
+    "x": -134.2,
+    "y": 452.6,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 256,
+    "x": -134.9,
+    "y": 411.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 257,
+    "x": -125.9,
+    "y": 427.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 258,
+    "x": -116.9,
+    "y": 442.6,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 259,
+    "x": -117.6,
+    "y": 401.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 260,
+    "x": -108.6,
+    "y": 417.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 261,
+    "x": -99.6,
+    "y": 432.6,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 262,
+    "x": -100.2,
+    "y": 391.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 263,
+    "x": -91.2,
+    "y": 407.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 264,
+    "x": -82.2,
+    "y": 422.6,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 265,
+    "x": -82.9,
+    "y": 381.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 266,
+    "x": -73.9,
+    "y": 397.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 267,
+    "x": -64.9,
+    "y": 412.6,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 268,
+    "x": -65.6,
+    "y": 371.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 269,
+    "x": -56.6,
+    "y": 387.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 270,
+    "x": -47.6,
+    "y": 402.6,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 271,
+    "x": -48.3,
+    "y": 361.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 272,
+    "x": -39.3,
+    "y": 377.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 273,
+    "x": -30.3,
+    "y": 392.6,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 274,
+    "x": -31.0,
+    "y": 351.4,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 275,
+    "x": -22.0,
+    "y": 367.0,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 276,
+    "x": -13.0,
+    "y": 382.6,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "After Pool",
+    "corner_stops": 0
+  },
+  {
+    "id": 277,
+    "x": -0.1,
+    "y": 364.8,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Rascasse",
+    "corner_stops": 1
+  },
+  {
+    "id": 278,
+    "x": -9.1,
+    "y": 349.2,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Rascasse",
+    "corner_stops": 1
+  },
+  {
+    "id": 279,
+    "x": 14.8,
+    "y": 359.1,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Rascasse",
+    "corner_stops": 1
+  },
+  {
+    "id": 280,
+    "x": 11.0,
+    "y": 341.5,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Rascasse",
+    "corner_stops": 1
+  },
+  {
+    "id": 281,
+    "x": 30.7,
+    "y": 358.2,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Rascasse",
+    "corner_stops": 1
+  },
+  {
+    "id": 282,
+    "x": 32.6,
+    "y": 340.3,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Rascasse",
+    "corner_stops": 1
+  },
+  {
+    "id": 283,
+    "x": 46.1,
+    "y": 362.4,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Rascasse",
+    "corner_stops": 1
+  },
+  {
+    "id": 284,
+    "x": 53.4,
+    "y": 345.9,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Rascasse",
+    "corner_stops": 1
+  },
+  {
+    "id": 285,
+    "x": 59.5,
+    "y": 371.0,
+    "lane": 0,
+    "total_lanes": 2,
+    "section": "Rascasse",
+    "corner_stops": 1
+  },
+  {
+    "id": 286,
+    "x": 71.5,
+    "y": 357.7,
+    "lane": 1,
+    "total_lanes": 2,
+    "section": "Rascasse",
+    "corner_stops": 1
+  },
+  {
+    "id": 287,
+    "x": 61.7,
+    "y": 387.9,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 288,
+    "x": 77.3,
+    "y": 378.9,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 289,
+    "x": 92.9,
+    "y": 369.9,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 290,
+    "x": 66.3,
+    "y": 397.7,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 291,
+    "x": 83.2,
+    "y": 391.6,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 292,
+    "x": 100.1,
+    "y": 385.4,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 293,
+    "x": 69.1,
+    "y": 408.2,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 294,
+    "x": 86.8,
+    "y": 405.1,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 295,
+    "x": 104.5,
+    "y": 401.9,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 296,
+    "x": 70.0,
+    "y": 418.9,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 297,
+    "x": 88.0,
+    "y": 418.9,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 298,
+    "x": 106.0,
+    "y": 418.9,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 299,
+    "x": 69.1,
+    "y": 429.7,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 300,
+    "x": 86.8,
+    "y": 432.8,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 301,
+    "x": 104.5,
+    "y": 436.0,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 302,
+    "x": 66.3,
+    "y": 440.2,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 303,
+    "x": 83.2,
+    "y": 446.3,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 304,
+    "x": 100.1,
+    "y": 452.5,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Anthony Noghes",
+    "corner_stops": 1
+  },
+  {
+    "id": 305,
+    "x": 92.9,
+    "y": 467.9,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 306,
+    "x": 77.3,
+    "y": 458.9,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 307,
+    "x": 61.7,
+    "y": 449.9,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 308,
+    "x": 82.9,
+    "y": 485.3,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 309,
+    "x": 67.3,
+    "y": 476.3,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 310,
+    "x": 51.7,
+    "y": 467.3,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 311,
+    "x": 72.9,
+    "y": 502.6,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 312,
+    "x": 57.3,
+    "y": 493.6,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 313,
+    "x": 41.7,
+    "y": 484.6,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 314,
+    "x": 62.9,
+    "y": 519.9,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 315,
+    "x": 47.3,
+    "y": 510.9,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 316,
+    "x": 31.7,
+    "y": 501.9,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 317,
+    "x": 52.9,
+    "y": 537.2,
+    "lane": 0,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 318,
+    "x": 37.3,
+    "y": 528.2,
+    "lane": 1,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  },
+  {
+    "id": 319,
+    "x": 21.7,
+    "y": 519.2,
+    "lane": 2,
+    "total_lanes": 3,
+    "section": "Final Approach",
+    "corner_stops": 0
+  }
+]

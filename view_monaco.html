@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formula D - Monaco Complete</title>
+    <style>
+        body { background: #0a0a0a; color: #0f0; font-family: monospace; padding: 20px; margin: 0; }
+        canvas { border: 2px solid #0f0; background: #000; display: block; margin: 20px auto; }
+        .info { text-align: center; }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">🏁 Formula D - Circuit de Monaco (297 Spaces)</h2>
+    <div class="info">
+        <span style="color:#cc0000;">■</span> 2 lanes (tight) | 
+        <span style="color:#888;">■</span> 3 lanes (normal) | 
+        <span style="color:#00aa00;">■</span> 4 lanes (wide)
+    </div>
+    <canvas id="track" width="500" height="700"></canvas>
+    
+    <script>
+        fetch('monaco_complete.json')
+            .then(r => r.json())
+            .then(spaces => {
+                const canvas = document.getElementById('track');
+                const ctx = canvas.getContext('2d');
+                
+                ctx.fillStyle = '#000';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                
+                // Draw all spaces
+                spaces.forEach((sp, idx) => {
+                    const laneColors = {2: '#cc0000', 3: '#666666', 4: '#00aa00'};
+                    ctx.fillStyle = laneColors[sp.total_lanes] || '#444';
+                    ctx.fillRect(sp.x - 5, sp.y - 5, 10, 10);
+                    
+                    ctx.strokeStyle = '#222';
+                    ctx.lineWidth = 0.5;
+                    ctx.strokeRect(sp.x - 5, sp.y - 5, 10, 10);
+                    
+                    // Row numbers every 15 spaces
+                    if (idx % 15 === 0 && sp.lane === 0) {
+                        ctx.fillStyle = '#555';
+                        ctx.font = '8px monospace';
+                        ctx.fillText(Math.floor(idx / sp.total_lanes), sp.x - 15, sp.y + 3);
+                    }
+                });
+                
+                // Start/finish line
+                ctx.strokeStyle = '#fff';
+                ctx.lineWidth = 3;
+                ctx.setLineDash([8, 8]);
+                ctx.beginPath();
+                ctx.moveTo(120, 560);
+                ctx.lineTo(120, 600);
+                ctx.stroke();
+                ctx.setLineDash([]);
+                
+                // Labels
+                ctx.fillStyle = '#888';
+                ctx.font = '10px monospace';
+                ctx.fillText('START', 125, 590);
+                ctx.fillText('S.Devote', 445, 520);
+                ctx.fillText('Casino', 280, 75);
+                ctx.fillText('Hairpin', 50, 140);
+                ctx.fillText('Tunnel', 85, 550);
+                ctx.fillText('Pool', 35, 640);
+                ctx.fillText('Rascasse', -10, 570);
+                
+                console.log(`✅ Loaded ${spaces.length} spaces`);
+            })
+            .catch(err => {
+                document.body.innerHTML += '<p style="color:red;">Error loading track: ' + err + '</p>';
+            });
+    </script>
+</body>
+</html>

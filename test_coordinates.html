@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Track Coordinates Test</title>
+    <style>
+        body { 
+            background: #000; 
+            color: #fff; 
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 20px;
+        }
+        #testContainer {
+            position: relative;
+            display: inline-block;
+            margin: 20px auto;
+        }
+        #boardImage {
+            display: block;
+            width: 1200px;
+            height: auto;
+        }
+        #spacesCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+        .info {
+            background: #222;
+            padding: 15px;
+            margin: 10px 0;
+            border: 2px solid #0f0;
+        }
+    </style>
+</head>
+<body>
+    <h2>🏎️ Monaco Track Coordinates Test</h2>
+    
+    <div class="info">
+        <button onclick="loadAndTest()">Load & Test Coordinates</button>
+        <button onclick="toggleSpaceNumbers()">Toggle Space Numbers</button>
+        <span id="status"></span>
+    </div>
+    
+    <div id="testContainer">
+        <img id="boardImage" src="/static/monaco_board.jpg" alt="Monaco Board">
+        <canvas id="spacesCanvas"></canvas>
+    </div>
+    
+    <script>
+        let spacePositions = [];
+        let showNumbers = false;
+        
+        async function loadAndTest() {
+            const status = document.getElementById('status');
+            status.textContent = 'Loading coordinates...';
+            
+            try {
+                const response = await fetch('/track-coordinates');
+                const trackData = await response.json();
+                spacePositions = trackData.spaces;
+                
+                status.textContent = `✅ Loaded ${spacePositions.length} spaces from ${trackData.name}`;
+                drawSpaces();
+                
+                // Test specific sections
+                testSection('Start/Finish', 0, 30);
+                testSection('Sainte Devote', 30, 48);
+                testSection('Casino', 96, 132);
+                
+            } catch (error) {
+                status.textContent = `❌ Error: ${error.message}`;
+            }
+        }
+        
+        function testSection(name, start, end) {
+            const sectionSpaces = spacePositions.filter(s => s.id >= start && s.id < end);
+            console.log(`${name}: ${sectionSpaces.length} spaces`);
+            sectionSpaces.forEach(space => {
+                if (space.id % 5 === 0) { // Log every 5th space
+                    console.log(`  Space ${space.id}: (${space.x.toFixed(0)}, ${space.y.toFixed(0)}) lane ${space.lane}`);
+                }
+            });
+        }
+        
+        function drawSpaces() {
+            const img = document.getElementById('boardImage');
+            const canvas = document.getElementById('spacesCanvas');
+            const ctx = canvas.getContext('2d');
+            
+            canvas.width = img.width;
+            canvas.height = img.height;
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Draw spaces
+            spacePositions.forEach((space, idx) => {
+                const x = space.x;
+                const y = space.y;
+                
+                // Color by section
+                let color = '#0f0'; // green for normal
+                if (space.space_type === 'corner') {
+                    color = '#f00'; // red for corners
+                } else if (space.corner_zone) {
+                    color = '#ff0'; // yellow for corner zones
+                }
+                
+                // Draw space dot
+                ctx.fillStyle = color;
+                ctx.beginPath();
+                ctx.arc(x, y, 3, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Draw space number if enabled
+                if (showNumbers && space.id % 10 === 0) { // Every 10th space
+                    ctx.fillStyle = '#fff';
+                    ctx.font = '10px Arial';
+                    ctx.textAlign = 'center';
+                    ctx.fillText(space.id.toString(), x, y - 8);
+                }
+                
+                // Draw lane indicators
+                if (space.lane === 0) {
+                    ctx.strokeStyle = '#0f0';
+                    ctx.strokeRect(x - 5, y - 5, 10, 10);
+                }
+            });
+            
+            console.log('Drew', spacePositions.length, 'spaces on track');
+        }
+        
+        function toggleSpaceNumbers() {
+            showNumbers = !showNumbers;
+            if (spacePositions.length > 0) {
+                drawSpaces();
+            }
+        }
+        
+        // Auto-load when page loads
+        window.onload = loadAndTest;
+    </script>
+</body>
+</html>
